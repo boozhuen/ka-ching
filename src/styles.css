@@ -783,3 +783,35 @@ details summary::-webkit-details-marker {
 .tooltip:hover::after {
   visibility: visible;  /* Make it visible when hovered */
 }
+
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip-box {
+  display: none;
+  position: absolute;
+  top: 130%;
+  left: 0;
+  background-color: #e6fdf3; /* soft mint background */
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  width: max-content;
+  max-width: 280px;
+}
+
+.tooltip-wrapper:hover .tooltip-box {
+  display: block;
+}
+
+.tooltip-text,
+.tooltip-box li {
+  color: #396534; /* leafy green */
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
