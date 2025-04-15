@@ -775,6 +775,7 @@ details summary::-webkit-details-marker {
 }
 
 .tooltip::after {
+  z-index: 9999;
   visibility: hidden; /* Tooltip is hidden by default */
   transition: opacity 0.3s ease-in-out;
 }
