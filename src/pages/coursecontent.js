@@ -244,7 +244,7 @@ const CourseContent = () => {
     <h3 className="text-lg font-semibold">⏳ Time Affects Strategy</h3>
     <p>
       Short-term vs. long-term goals need different plans. A 30-year goal lets you take more <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600">risk</span>. 
-      A 1-year goal? Keep it stable and <span title="Liquidity is how easily an asset can be turned into cash." className="text-blue-600 underline">liquid</span>.
+      A 1-year goal? Keep it stable and <span title="Liquidity is how easily an asset can be turned into cash." className="text-blue-600">liquid</span>.
     </p>
   </div>
 
@@ -258,7 +258,7 @@ const CourseContent = () => {
   <div>
     <h3 className="text-lg font-semibold">💧 Liquidity = Access</h3>
     <p>
-      <span title = "Liquidity means how fast you can turn your investment into cash." className="text-blue-600">Liquidity</span> refers to how quickly and easily you can convert something into cash without losing its value. <p> For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value. </p>
+      <span title = "Liquidity means how fast you can turn your investment into cash." className="text-blue-600">Liquidity</span> refers to how quickly and easily you can convert something into cash without losing its value. For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value.
       If you need the money soon, choose something easy to access.
     </p>
   </div>
