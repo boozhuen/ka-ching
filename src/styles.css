@@ -755,7 +755,7 @@ details summary::-webkit-details-marker {
   content: attr(title);
   position: absolute;
   z-index: 10001;  /* Set a high z-index value to ensure the tooltip appears above other elements */
-  background-color: rgba(6, 214, 160, 1);  /* Adjust background color for clarity */
+  background-color: rgba(240, 253, 244, 1);  /* Adjust background color for clarity */
   color: rgba(22, 101, 52, 0.8);  /* Use a suitable text color */
   padding: 10px;
   border-radius: 5px;
