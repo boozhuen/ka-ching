@@ -243,7 +243,7 @@ const CourseContent = () => {
   <div>
     <h3 className="text-lg font-semibold">⏳ Time Affects Strategy</h3>
     <p>
-      Short-term vs. long-term goals need different plans. A 30-year goal lets you take more {" "}
+      /*Short-term vs. long-term goals need different plans. A 30-year goal lets you take more {" "}
           <span className="text-blue-600 tooltip-wrapper">
             risk
             <div className="tooltip-box">
@@ -256,6 +256,7 @@ const CourseContent = () => {
             </div>
           </span>
           .
+          */
           
         A 1-year goal? Keep it stable and {" "}
           <span className="text-blue-600 tooltip-wrapper">
