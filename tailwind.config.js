@@ -80,3 +80,15 @@ module.exports = {
   plugins: [require("tailwindcss-animate")],
 }
 
+
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'leafy-green': '#396534',
+      },
+    },
+  },
+}
+
+
