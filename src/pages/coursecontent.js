@@ -683,20 +683,19 @@ const CourseContent = () => {
                     </div>
                   </span>
                   </li>
-                  <li> 
+                  <li>
                   <span className="text-blue-600 tooltip-wrapper">
                     Risk-averse
-                    <div className="tooltip-box">
-                      <p className="tooltip-text font-medium mb-1">Risk-averse = not vibing with losing money. 🚫💸</p>
-                      <ul className="list-none pl-4 m-0 space-y-1">
-                        <li>You’d rather earn less but sleep well at night.</li>
-                        <li>You stick to safe bets like savings, bonds, or blue-chip stocks. 🛏️💼</li>
-                      </ul>
-                      <p className="tooltip-text font-medium mb-1"> Low risk, low stress. That’s the mood.</p>
-                    </div>
-                  </span>
-                  {" "} individuals
-                  </li>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">Risk-averse = not vibing with losing money.🚫💸</p>
+                    <ul className="list-none pl-4 m-0 space-y-1">
+                      <li>You’d rather earn less but sleep well at night.</li>
+                      <li>You stick to safe bets like savings, bonds, or blue-chip stocks. 🛏️💼</li>
+                    </ul>
+                  <p className="tooltip-text font-medium mb-1">Low risk, low stress. That’s the mood.</p>
+                  </div>
+                  </span> {" "} ndividuals
+                  </li> 
                 </div>
               </div>
             </div>
