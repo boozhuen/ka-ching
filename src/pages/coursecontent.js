@@ -1175,7 +1175,7 @@ const CourseContent = () => {
       },
     ],
     [
-      {title: "Introduction to Fundamental Analysis II",
+      {title: "Company Valuation",
         type: "content",
         content: (
           <div>
