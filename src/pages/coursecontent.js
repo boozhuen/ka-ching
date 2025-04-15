@@ -255,15 +255,39 @@ const CourseContent = () => {
     </p>
   </div>
 
-  <div>
-    <h3 className="text-lg font-semibold">💧 Liquidity = Access</h3>
-    <p>
-      <span title="Liquidity refers to how quickly and easily you can convert something into cash without losing its value. For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value. If you need the money soon, choose something easy to access." className="text-blue-600">
-          Liquidity
-      </span>
-      ,in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. If you need the money soon, choose something easy to access.
-    </p>
-  </div>
+  <div className="relative">
+  <h3 className="text-lg font-semibold">💧 Liquidity = Access</h3>
+  <p>
+    <span className="text-blue-600 hover-trigger">
+      Liquidity
+    </span>
+    <span className="hover-box hidden absolute bg-gray-700 text-white text-sm p-2 rounded">
+      Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. <br />
+      For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value.
+    </span>
+    refers to how quickly and easily you can convert something into cash without losing its value. For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value. If you need the money soon, choose something easy to access.
+  </p>
+</div>
+
+<style jsx>{`
+  .hover-trigger:hover + .hover-box {
+    display: block;
+  }
+
+  .hover-box {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 5px;
+    width: 250px;
+    z-index: 10;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #2d2d2d;
+  }
+`}</style>
         
         ),
       },
