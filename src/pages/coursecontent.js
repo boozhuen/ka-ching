@@ -732,16 +732,7 @@ const CourseContent = () => {
               investment horizon.
             </p>
             <div style={{ marginTop: "2rem", textAlign: "center" }}>
-              <img
-              src="/Module 2.1.png"
-              alt="Module 2.1 - Thrift Store Analogy"
-              style={{
-                maxWidth: "100%",
-                height: "auto",
-                borderRadius: "8px",
-                boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)"
-              }}
-              >
+              <img src={Module2_1} alt="Fundamental Analysis Overview" style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} />
             </div>
           </div>
         ),
