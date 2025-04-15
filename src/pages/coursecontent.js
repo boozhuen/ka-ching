@@ -629,6 +629,7 @@ const CourseContent = () => {
                   <p className="tooltip-text font-medium mb-1">High risk? No panic. You’re built for it.</p>
                   </div>
                   </span> {" "} ndividuals
+                  </ul> 
                   </li> 
                 </div>
               </div>
@@ -695,6 +696,7 @@ const CourseContent = () => {
                   <p className="tooltip-text font-medium mb-1">Low risk, low stress. That’s the mood.</p>
                   </div>
                   </span> {" "} ndividuals
+                  </ul>
                   </li> 
                 </div>
               </div>
