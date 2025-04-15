@@ -731,7 +731,7 @@ const CourseContent = () => {
               </span>{" "}
               investment horizon.
             </p>
-            <div style={{ marginTop: "2rem", textAlign: "center" }}>
+            <div style={{ marginTop: "2rem"}}>
               <img
                 src="/Module-2-1.png"
                 style={{
@@ -739,8 +739,9 @@ const CourseContent = () => {
                   height: "auto",
                   borderRadius: "8px",
                   boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-                  display: "inline-block",
-                  margin: "2rem auto 0",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
                 }}
               />
             </div>
