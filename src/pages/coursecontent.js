@@ -631,6 +631,7 @@ const CourseContent = () => {
                   </span>
                   {" "} individuals
                   </ul>
+                  </li>
                 </div>
               </div>
             </div>
