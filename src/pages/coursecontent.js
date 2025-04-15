@@ -245,11 +245,11 @@ const CourseContent = () => {
     <p>
       Short-term vs. long-term goals need different plans. A 30-year goal lets you take more <span title="Risk = chance you lose money. Buying from a thrift shop:A branded tee for $5? Might be real (win!) or fake (loss). It’s a gamble 🎲—you could score big 💰 or waste your cash 💸 That’s risk. The bigger the deal, the bigger the risk." className="text-blue-600 tooltip">risk</span>. 
       A 1-year goal? Keep it stable and {" "}
-          <span className="text-leafy-green">
+          <span className="text-blue-600 tooltip-wrapper">
             liquid
-            <div className="text-blue-600 tooltip">
-              <p style={{ margin: 0 }}>Liquidity = how fast you can sell for cash.</p>
-              <ul style={{ paddingLeft: "1rem", margin: "0.5rem 0 0" }}>
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Liquidity = how fast you can sell for cash.</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
                 <li>💸 Cash? Instant</li>
                 <li>🎮 Console? Takes a bit</li>
                 <li>🎨 Art? Might take a looooong while</li>
