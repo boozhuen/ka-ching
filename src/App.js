@@ -22,7 +22,7 @@ import "./styles.css"
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}> 
+    <Router> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<div>About Page</div>} />
@@ -717,7 +717,7 @@ function Home() {
               />
             </div>
             <h3 className="font-sarala font-bold text-xl mb-1">Ananya Agarwal</h3>
-            <p className="font-sarala text-gray-600 mb-4">NUS Mechanical Engineering</p>
+            <p className="font-sarala text-gray-600 mb-4">Lead Strategist</p>
             <a
               href="https://www.linkedin.com/in/ananya-agarwal-nus"
               target="_blank"
@@ -745,7 +745,7 @@ function Home() {
               />
             </div>
             <h3 className="font-sarala font-bold text-xl mb-1">Boo Zhu En</h3>
-            <p className="font-sarala text-gray-600 mb-4">NUS Industrial and Systems Engineering</p>
+            <p className="font-sarala text-gray-600 mb-4">Marketing Officer</p>
             <a
               href="https://www.linkedin.com/in/boo-zhu-en"
               target="_blank"
@@ -773,7 +773,7 @@ function Home() {
               />
             </div>
             <h3 className="font-sarala font-bold text-xl mb-1">Daphne Wong</h3>
-            <p className="font-sarala text-gray-600 mb-4">NUS Data Science and Analytics</p>
+            <p className="font-sarala text-gray-600 mb-4">Lead Developer</p>
             <a
               href="https://www.linkedin.com/in/daphne-wong-0474361a8"
               target="_blank"
@@ -801,7 +801,7 @@ function Home() {
               />
             </div>
             <h3 className="font-sarala font-bold text-xl mb-1">Kenta Takayama</h3>
-            <p className="font-sarala text-gray-600 mb-4">NUS Chemical Engineering</p>
+            <p className="font-sarala text-gray-600 mb-4">Business Development Manager</p>
             <a
               href="https://www.linkedin.com/in/kenta-takayama-099231320"
               target="_blank"
