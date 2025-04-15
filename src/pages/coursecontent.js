@@ -756,7 +756,7 @@ const CourseContent = () => {
         title: "Introduction to Fundamental Analysis II",
         type: "content",
         content: (
-          <div style={{ border: "1px solid #ccc", borderRadius: "10px", padding: "1.5rem", maxWidth: "750px" }}>
+          <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
               🧥 Thrift Store Analogy: Understanding Value
             </h3>
@@ -827,6 +827,20 @@ const CourseContent = () => {
               </span>
               .
             </p>
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-2.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
           </div>
         ),
       },
