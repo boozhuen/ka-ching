@@ -816,17 +816,17 @@ details summary::-webkit-details-marker {
 }
 
 .flip-card {
+  background-color: transparent;
   width: 100%;
-  max-width: 100%;
+  max-width: 360px;
+  height: auto;
   perspective: 1000px;
-  flex: 1;
 }
-
 
 .flip-card-inner {
   position: relative;
   width: 100%;
-  min-height: 100%;
+  min-height: 240px;
   transition: transform 0.6s;
   transform-style: preserve-3d;
 }
@@ -837,34 +837,27 @@ details summary::-webkit-details-marker {
 
 .flip-card-front,
 .flip-card-back {
+  color: #396534;
+  background: #FFF8DC;
   position: absolute;
   width: 100%;
-  height: auto; /* ✅ Allow natural height */
-  min-height: 100%;
+  height: 100%;
   padding: 1.25rem;
   border-radius: 16px;
-  backface-visibility: hidden;
-  background: #FFF8DC;
-  color: #396534;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  overflow-wrap: break-word; /* ✅ Wrap long text */
-  word-break: break-word;
-  overflow-y: auto; /* ✅ Scroll if needed */
+  backface-visibility: hidden;
 }
 
 .flip-card-front {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .flip-card-back {
   transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  max-height: 500px;  /* Or use Tailwind: max-h-[500px] */
+  overflow-y: auto;
 }
 
 
