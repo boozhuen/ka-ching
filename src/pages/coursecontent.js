@@ -1,5 +1,3 @@
-// In any .js or .css file
-// Trigger Vercel redeploy
 
 "use client"
 
