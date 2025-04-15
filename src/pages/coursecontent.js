@@ -262,8 +262,7 @@ const CourseContent = () => {
       Liquidity
     </span>
     <span className="hover-box hidden absolute bg-gray-700 text-white text-sm p-2 rounded">
-      Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. <br>
-      For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value.
+      Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value.
     </span>
     refers to how quickly and easily you can convert something into cash without losing its value. For example, cash is the most liquid asset because you can use it immediately. Stocks or bonds are also relatively liquid because you can sell them quickly in the market. However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value. If you need the money soon, choose something easy to access.
   </p>
