@@ -1201,7 +1201,7 @@ const CourseContent = () => {
   },
       ],
     //Add more sections as needed
-  ];
+  ],
 
 
   // Quiz data matching quizKey format
