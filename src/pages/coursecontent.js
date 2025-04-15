@@ -254,7 +254,6 @@ const CourseContent = () => {
                 <li>That’s risk. The bigger the deal, the bigger the risk.</li>
               </ul>
             </div>
-          .
           </span>
           
           A 1-year goal? Keep it stable and {" "}
@@ -268,7 +267,6 @@ const CourseContent = () => {
                 <li>🎨 Art? Might take a looooong while</li>
               </ul>
             </div>
-            .
           </span>
           
     </p>
