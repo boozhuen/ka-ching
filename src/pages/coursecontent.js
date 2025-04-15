@@ -543,7 +543,20 @@ const CourseContent = () => {
             <ol style={{ paddingLeft: "1.2rem", listStyleType: "decimal", lineHeight: "1.6" }}>
               <li>🏢 A private company decides to go public to raise money.</li>
               <li>💼 It works with investment banks to set an initial stock price.</li>
-              <li>🏦 The stock is offered to institutional investors first.</li>
+              <li>🏦 The stock is offered to 
+              <span className="text-blue-600 tooltip-wrapper">
+                    institutional investors
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Institutional investors = the big players with deep pockets.</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>Not your average student on a budget — we’re talking banks, insurance companies, hedge funds. 🏦💼</li>
+                        <li>At the thrift shop, while you're buying one shirt, they’re buying the entire rack.</li>
+                        <li>They move markets because they trade in huge amounts.</li>
+                      </ul>
+                      <p className="tooltip-text font-medium mb-1">Big money. Big moves. Not your typical shopper.</p>
+                    </div>
+                  </span>
+                  </li>
               <li>📈 Once trading begins, anyone can buy shares on the open market.</li>
             </ol>
           </div>
@@ -560,99 +573,136 @@ const CourseContent = () => {
         content: (
           <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
             {/* Common Stock */}
-            <div
-              style={{ flex: "1", minWidth: "280px", border: "1px solid #ccc", borderRadius: "10px", padding: "1rem" }}
-            >
-              <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "0.5rem" }}>📈 Common Stock</h3>
-              <p>
-                <strong>What:</strong> The most typical stock
-              </p>
-              <p>
-                <strong>🎯 Perks:</strong>{" "}
-                <span
-                  title="Gives shareholders the ability to vote on major company decisions"
-                  style={{ textDecoration: "underline dotted", cursor: "help" }}
-                >
-                  Voting rights
-                </span>{" "}
-                and potential for{" "}
-                <span
-                  title="When a stock increases in value over time"
-                  style={{ textDecoration: "underline dotted", cursor: "help" }}
-                >
-                  capital appreciation
-                </span>
-                .
-              </p>
-              <p>
-                <strong>👤 Best for:</strong>
-              </p>
-              <ul style={{ paddingLeft: "1.2rem", listStyleType: "disc" }}>
-                <li>Long-term investors</li>
-                <li>
-                  Those seeking{" "}
-                  <span
-                    title="Increase in the value of your investment over time"
-                    style={{ textDecoration: "underline dotted", cursor: "help" }}
-                  >
-                    capital appreciation
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <h4 className="font-semibold text-center">📈 Common Stock</h4>
+                </div>
+                <div className="flip-card-back">
+                  <ul className="space-y-1 text-sm">
+                    <li><strong>What:</strong> The most typical stock</li>
+                    <li><strong>🎯 Perks:</strong>{" "}
+                    <span className="text-blue-600 tooltip-wrapper">
+                    Voting rights
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Voting rights = your say in how the company’s run.</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>Own shares? Congrats, you get a vote on big decisions (like picking the CEO or major plans). 🗳️</li>
+                        <li>More shares = more slices of pizza 🍕 = more votes.</li>
+                      </ul>
+                      <p className="tooltip-text font-medium mb-1">It’s like being part of a group chat where your opinion actually matters.</p>
+                    </div>
                   </span>
-                </li>
-                <li>
-                  <span
-                    title="Comfortable with higher price swings and potential losses for long-term gain"
-                    style={{ textDecoration: "underline dotted", cursor: "help" }}
-                  >
+                    and potential for{" "}
+                    <span className="text-blue-600 tooltip-wrapper">
+                    capital appreciation
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Capital appreciation = your stock going up in value. 📈</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>You bought a sneaker for $100. Now it’s worth $150. That $50 gain? That’s capital appreciation. 💰</li>
+                      </ul>
+                    </div>
+                  </span>
+                    </li>
+                    <li><strong>👤 Best for:</strong></li>
+                    <li>Long-term investors</li>
+                    <li>Those seeking{" "}
+                    <span className="text-blue-600 tooltip-wrapper">
+                    capital appreciation
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Capital appreciation = your stock going up in value. 📈</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>You bought a sneaker for $100. Now it’s worth $150. That $50 gain? That’s capital appreciation. 💰</li>
+                      </ul>
+                    </div>
+                  </span>
+                  </li>
+                  <li> 
+                  <span className="text-blue-600 tooltip-wrapper">
                     Risk-tolerant
-                  </span>{" "}
-                  investors
-                </li>
-              </ul>
-            </div>
-
-            {/* Preferred Stock */}
-            <div
-              style={{ flex: "1", minWidth: "280px", border: "1px solid #ccc", borderRadius: "10px", padding: "1rem" }}
-            >
-              <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "0.5rem" }}>💰 Preferred Stock</h3>
-              <p>
-                <strong>What:</strong> A stock with more{" "}
-                <span
-                  title="Regular income payments made to shareholders, like interest"
-                  style={{ textDecoration: "underline dotted", cursor: "help" }}
-                >
-                  yields
-                </span>{" "}
-                and fewer rights
-              </p>
-              <p>
-                <strong>🎯 Perks:</strong> Priority when it comes to receiving dividends, but no{" "}
-                <span
-                  title="No ability to vote on major company matters like mergers or board elections"
-                  style={{ textDecoration: "underline dotted", cursor: "help" }}
-                >
-                  voting rights
-                </span>
-                .
-              </p>
-              <p>
-                <strong>👤 Best for:</strong>
-              </p>
-              <ul style={{ paddingLeft: "1.2rem", listStyleType: "disc" }}>
-                <li>Medium to long-term investors</li>
-                <li>Those seeking stable income from dividends</li>
-                <li>
-                  <span
-                    title="Prefers steady returns with lower volatility and lower risk"
-                    style={{ textDecoration: "underline dotted", cursor: "help" }}
-                  >
-                    Risk-averse
-                  </span>{" "}
-                  individuals
-                </li>
-              </ul>
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Risk tolerant = chill with taking Ls for bigger Ws. 🎢</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>You’re okay with ups and downs, like buying crypto or flipping thrift finds that might not sell.</li>
+                        <li>Could gain big 💰, could lose some 💸 — but you’re cool with the ride.</li>
+                      </ul>
+                      <p className="tooltip-text font-medium mb-1"> High risk? No panic. You’re built for it. </p>
+                    </div>
+                  </span>
+                  {" "} individuals
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
+
+            {/* Preferred Stock */}
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <h4 className="font-semibold text-center">💰 Preferred Stock</h4>
+                </div>
+                <div className="flip-card-back">
+                  <ul className="space-y-1 text-sm">
+                    <li><strong>What:</strong> A stock with more  
+                    <span className="text-blue-600 tooltip-wrapper">
+                    yields
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Yields = money you earn from holding an investment. 💸</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>Like buying a vending machine and it spits out coins every month. 🥤💰</li>
+                        <li>Those coins? That’s your yield.</li>
+                      </ul>
+                    </div>
+                  </span>
+                  and fewer rights
+                    </li>
+                    <li><strong>🎯 Perks:</strong> Priority when it comes to receiving dividends but no {" "}
+                    <span className="text-blue-600 tooltip-wrapper">
+                    voting rights
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Voting rights = your say in how the company’s run.</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>Own shares? Congrats, you get a vote on big decisions (like picking the CEO or major plans). 🗳️</li>
+                        <li>More shares = more slices of pizza 🍕 = more votes.</li>
+                      </ul>
+                      <p className="tooltip-text font-medium mb-1">It’s like being part of a group chat where your opinion actually matters.</p>
+                    </div>
+                  </span>
+                   .
+                  </li>
+                    <li><strong>👤 Best for:</strong></li>
+                    <li>Mid to long-term investors</li>
+                    <li>Those seeking stable income from {" "}
+                    <span className="text-blue-600 tooltip-wrapper">
+                    dividends
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Dividends = your cut of the company’s profits. 💸</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>Own shares? The company might share profits with you, like giving you some of the tips they received from a slice of the pizza they just sold. 🍕</li>
+                      </ul>
+                    </div>
+                  </span>
+                  </li>
+                  <li> 
+                  <span className="text-blue-600 tooltip-wrapper">
+                    Risk-averse
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Risk-averse = not vibing with losing money. 🚫💸</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>You’d rather earn less but sleep well at night.</li>
+                        <li>You stick to safe bets like savings, bonds, or blue-chip stocks. 🛏️💼</li>
+                      </ul>
+                      <p className="tooltip-text font-medium mb-1"> Low risk, low stress. That’s the mood.</p>
+                    </div>
+                  </span>
+                  {" "} individuals
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      
         ),
       },
     ],
