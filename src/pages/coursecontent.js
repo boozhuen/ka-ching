@@ -261,7 +261,7 @@ const CourseContent = () => {
   <div>
     <h3 className="text-lg font-semibold">💧 Liquidity = Access</h3>
     <p>
-    <span title="Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value.\n \n
+    <span title="Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. \n
         For example, cash is the most liquid asset because you can use it immediately. \n
         Stocks or bonds are also relatively liquid because you can sell them quickly in the market. \n
         However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value." className="text-blue-600"> Liquidity</span> means how fast you can turn your investment into cash.
