@@ -695,7 +695,7 @@ const CourseContent = () => {
         title: "Introduction to Fundamental Analysis I",
         type: "content",
         content: (
-          <div style={{ padding: "1.5rem", maxWidth: "700px", border: "1px solid #ccc", borderRadius: "10px" }}>
+          <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>🔍 Fundamental Analysis</h3>
             <p style={{ marginBottom: "1rem" }}>
               Fundamental analysis looks at both the{" "}
