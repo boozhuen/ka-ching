@@ -255,7 +255,7 @@ const CourseContent = () => {
               </ul>
             </div>
           </span>
-          .
+          
           A 1-year goal? Keep it stable and {" "}
           <span className="text-blue-600 tooltip-wrapper">
             liquid
@@ -268,7 +268,7 @@ const CourseContent = () => {
               </ul>
             </div>
           </span>
-          .
+          
     </p>
   </div>
 
