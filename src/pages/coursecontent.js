@@ -225,7 +225,7 @@ const CourseContent = () => {
     
     // SECTION 1 MODULE 1
     [
-      {z
+      {
         title: "Start with your Why",
         type: "content",
         content:(<div className="space-y-6 text-base leading-relaxed">
