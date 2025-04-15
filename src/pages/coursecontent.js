@@ -732,7 +732,7 @@ const CourseContent = () => {
               investment horizon.
             </p>
             <div style={{ marginTop: "2rem", textAlign: "center" }}>
-              <img src={ModuleImage2_1} alt="Fundamental Analysis Overview" style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} />
+              <img src={Module 2.1.png} alt="Fundamental Analysis Overview" style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} />
             </div>
           </div>
         ),
