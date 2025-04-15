@@ -744,3 +744,41 @@ canvas {
 details summary::-webkit-details-marker {
   display: none;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip:hover::after {
+  content: attr(title);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);  /* Dark background for readability */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px; /* Adjust font size */
+  top: 100%; /* Position it below the element */
+  left: 50%;
+  transform: translateX(-50%); /* Center the tooltip */
+  white-space: nowrap;
+  z-index: 1000;
+  max-width: 200px; /* Limit the width */
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+.tooltip:hover::after {
+  opacity: 1; /* Show the tooltip on hover */
+}
+
+.tooltip::after {
+  visibility: hidden; /* Tooltip is hidden by default */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tooltip:hover::after {
+  visibility: visible; /* Make it visible when hovered */
+}
+
