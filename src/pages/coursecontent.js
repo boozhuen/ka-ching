@@ -247,13 +247,14 @@ const CourseContent = () => {
           <span className="text-blue-600 tooltip-wrapper">
             risk
             <div className="tooltip-box">
-              <p className="tooltip-text font-medium mb-1">"Risk = chance you lose money."</p>
+              <p className="tooltip-text font-medium mb-1">Risk = chance you lose money.</p>
               <ul className="list-none pl-4 m-0 space-y-1">
-                <li>"Buying from a thrift shop:A branded tee for $5? Might be real (win!) or fake (loss)."</li>
-                <li>"It’s a gamble 🎲—you could score big 💰 or waste your cash 💸"</li>
-                <li>"That’s risk. The bigger the deal, the bigger the risk."</li>
+                <li>Buying from a thrift shop:A branded tee for $5? Might be real (win!) or fake (loss)."</li>
+                <li>It’s a gamble 🎲—you could score big 💰 or waste your cash 💸</li>
+                <li>That’s risk. The bigger the deal, the bigger the risk.</li>
               </ul>
             </div>
+          .
           </span>
           
           A 1-year goal? Keep it stable and {" "}
@@ -267,6 +268,7 @@ const CourseContent = () => {
                 <li>🎨 Art? Might take a looooong while</li>
               </ul>
             </div>
+            .
           </span>
           
     </p>
