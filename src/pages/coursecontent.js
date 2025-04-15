@@ -733,7 +733,7 @@ const CourseContent = () => {
             </p>
             <div className="member-image w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-3 border-[#5a7d53] p-1">
               <img
-                src={require("Mod-2-1.png")}
+                src={require("Module 2.1.png")}
                 width={128}
                 height={128}
                 className="rounded-full w-full h-full object-cover"
