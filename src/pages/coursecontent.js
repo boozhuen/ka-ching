@@ -571,7 +571,7 @@ const CourseContent = () => {
         title: "Common vs Preferred Stock",
         type: "content",
         content: (
-          <div className="flex flex-wrap gap-6 mt-4">
+        <div className="flex flex-col md:flex-row justify-between gap-8 px-6 md:px-12 w-full max-w-[1200px] mx-auto">
   {/* Flip Card: Common Stock */}
   <div className="flip-card">
     <div className="flip-card-inner">
