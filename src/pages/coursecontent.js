@@ -733,7 +733,7 @@ const CourseContent = () => {
             </p>
             <div style={{ marginTop: "2rem", textAlign: "center" }}>
               <img
-                src="/Module 2.1.png"
+                src="/Module-2-1.png"
                 style={{
                   maxWidth: "100%",
                   height: "auto",
