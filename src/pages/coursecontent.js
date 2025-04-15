@@ -474,7 +474,7 @@ const CourseContent = () => {
 
         <p><strong>🛍️ Two Types of Secondary Markets</strong></p>
 
-        <div className="flex flex-wrap justify-center gap-4 px-4 md:px-8 w-full max-w-[1200px] mx-auto">
+        <div className="flex flex-row flex-wrap justify-center gap-4 px-4 md:px-8">
   <div className="flip-card flex-1 min-w-[340px] max-w-[48%]">
           {/* Flip Card: Dealer Market */}
           <div className="flip-card">
@@ -508,7 +508,8 @@ const CourseContent = () => {
       
 
         {/* Flip Card: Auction Market */}
-        <div className="flip-card">
+       <div className="flip-card flex-1 min-w-[340px] max-w-[48%]">
+          <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <h4 className="font-semibold text-center">2. Auction Market</h4>
@@ -574,7 +575,7 @@ const CourseContent = () => {
         title: "Common vs Preferred Stock",
         type: "content",
         content: (
-        <div className="flex flex-wrap justify-center gap-4 px-4 md:px-8 w-full max-w-[1200px] mx-auto">
+        <div className="flex flex-row flex-wrap justify-center gap-4 px-4 md:px-8">
   <div className="flip-card flex-1 min-w-[340px] max-w-[48%]">
   {/* Flip Card: Common Stock */}
   <div className="flip-card">
@@ -641,7 +642,8 @@ const CourseContent = () => {
   </div>
 
   {/* Flip Card: Preferred Stock */}
-  <div className="flip-card">
+  <div className="flip-card flex-1 min-w-[340px] max-w-[48%]">
+              <div className="flip-card">
     <div className="flip-card-inner">
       <div className="flip-card-front">
         <h4 className="font-semibold text-center">💰 Preferred Stock</h4>
