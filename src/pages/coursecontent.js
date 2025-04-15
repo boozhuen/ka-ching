@@ -254,18 +254,17 @@ const CourseContent = () => {
     <h3 className="text-lg font-semibold">⚠️ Risk Over Time</h3>
     <p>
       The longer you invest, the more ups and downs your money can handle.
-      <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 underline decoration-dotted"> Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
+      <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600"> Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
     </p>
   </div>
 
   <div>
     <h3 className="text-lg font-semibold">💧 Liquidity = Access</h3>
     <p>
-    <span title="Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. \n
-        For example, cash is the most liquid asset because you can use it immediately. \n
-        Stocks or bonds are also relatively liquid because you can sell them quickly in the market. \n
-        However, things like real estate or collectibles may take longer to sell and could be harder to convert to cash without potentially losing value." className="text-blue-600"> Liquidity</span> means how fast you can turn your investment into cash.
-      If you need the money soon, choose something easy to access.
+    <span title="Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. 
+        For example, cash is the most liquid asset because you can use it immediately.  
+        However, things like real estate may take longer to sell and could be harder to convert to cash without potentially losing value." className="text-blue-600"> Liquidity</span> means how fast you can turn your investment into cash.
+      If you need the money soon, choose something easy to access. 
     </p>
   </div>
 </div>
