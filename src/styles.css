@@ -785,6 +785,7 @@ details summary::-webkit-details-marker {
 .tooltipleft:hover::after {
   content: attr(title);
   position: absolute;
+  z-index: 10
   background-color: rgba(240, 253, 244, 0.80);  /* Dark background for readability */
   color: rgba(22, 101, 52,1);
   padding: 10px;
