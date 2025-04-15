@@ -1079,7 +1079,7 @@ const CourseContent = () => {
                 <li>It's like finding a really good deal on something valuable at a garage sale.</li>
                  <li>It's priced lower than its true value.</li>
               </ul>
-              <p className="tooltip-text font-medium">Price tag<True value!</p>
+              <p className="tooltip-text font-medium">Price tag is less than the true value!</p>
             </div>
           </span>{" "}
               and likely a great buy.
