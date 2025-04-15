@@ -770,10 +770,10 @@ details summary::-webkit-details-marker {
   transition: opacity 0.3s ease; /* Smooth fade-in effect */
 }
 
-/*.tooltip:hover::after {
-  opacity: 1;  /* Show the tooltip on hover 
+.tooltip:hover::after {
+  opacity: 1;  /* Show the tooltip on hover */
 }
-*/
+
 
 .tooltip::after {
   visibility: hidden;  /* Tooltip is hidden by default */
