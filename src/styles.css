@@ -754,8 +754,9 @@ details summary::-webkit-details-marker {
 .tooltip:hover::after {
   content: attr(title);
   position: absolute;
+  z-index: 999999;
   background-color: rgba(240, 253, 244, 1);  /* Dark background for readability */
-  color: rgba(22, 101, 52, 0.9);
+  color: rgba(22, 101, 52, 0.8);
   padding: 10px;
   border-radius: 5px;
   font-size: 14px; /* Adjust font size */
