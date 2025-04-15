@@ -254,7 +254,7 @@ const CourseContent = () => {
     <h3 className="text-lg font-semibold">⚠️ Risk Over Time</h3>
     <p>
       The longer you invest, the more ups and downs your money can handle.
-      <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltip"> Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
+      <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltipleft"> Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
     </p>
   </div>
 
