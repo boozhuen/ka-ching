@@ -754,9 +754,9 @@ details summary::-webkit-details-marker {
 .tooltip:hover::after {
   content: attr(title);
   position: absolute;
-  z-index: 99999999;
-  background-color: rgba(240, 253, 244, 1);  /* Dark background for readability */
-  color: rgba(22, 101, 52, 0.8);
+  z-index: 10001;  /* Set a high z-index value to ensure the tooltip appears above other elements */
+  background-color: rgba(6, 214, 160, 1);  /* Adjust background color for clarity */
+  color: rgba(22, 101, 52, 0.8);  /* Use a suitable text color */
   padding: 10px;
   border-radius: 5px;
   font-size: 14px; /* Adjust font size */
@@ -771,17 +771,14 @@ details summary::-webkit-details-marker {
 }
 
 .tooltip:hover::after {
-  opacity: 1; /*Show the tooltip on hover*/ 
-  z-index: 999999999;
+  opacity: 1;  /* Show the tooltip on hover */
 }
 
 .tooltip::after {
-  visibility: hidden;  /*Tooltip is hidden by default*/ 
+  visibility: hidden;  /* Tooltip is hidden by default */
   transition: opacity 0.3s ease-in-out;
 }
 
 .tooltip:hover::after {
   visibility: visible;  /* Make it visible when hovered */
-  z-index: 999999999;
 }
-
