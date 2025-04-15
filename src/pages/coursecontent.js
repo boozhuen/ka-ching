@@ -243,24 +243,22 @@ const CourseContent = () => {
   <div>
     <h3 className="text-lg font-semibold">⏳ Time Affects Strategy</h3>
     <p>
-      Short-term vs. long-term goals need different plans. A 30-year goal lets you take more <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltip">risk</span>. 
-      A 1-year goal? Keep it stable and <span title="Liquidity is how easily an asset can be turned into cash." className="text-blue-600 tooltip">liquid</span>.
+      Short-term vs. long-term goals need different plans. A 30-year goal lets you take more <span title="Risk = chance you lose money. Buying from a thrift shop:A branded tee for $5? Might be real (win!) or fake (loss). It’s a gamble 🎲—you could score big 💰 or waste your cash 💸 That’s risk. The bigger the deal, the bigger the risk." className="text-blue-600 tooltip">risk</span>. 
+      A 1-year goal? Keep it stable and <span title="Liquidity = how fast you can sell for cash. Cash? Instant 💸 Console? Takes a bit 🎮 Art? Might take a looooong while 🎨" className="text-blue-600 tooltip">liquid</span>.
     </p>
   </div>
 
   <div>
     <h3 className="text-lg font-semibold">⚠️ Risk Over Time</h3>
     <p>
-      The longer you invest, the more ups and downs your money can handle. <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltip">Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
+      The longer you invest, the more ups and downs your money can handle. <span title="Risk = chance you lose money. Buying from a thrift shop:A branded tee for $5? Might be real (win!) or fake (loss). It’s a gamble 🎲—you could score big 💰 or waste your cash 💸 That’s risk. The bigger the deal, the bigger the risk." className="text-blue-600 tooltip">Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
     </p>
   </div>
 
   <div>
     <h3 className="text-lg font-semibold">💧 Liquidity = Access</h3>
     <p>
-    <span title="Liquidity, in simple terms, refers to how quickly and easily you can convert something into cash without losing its value. 
-        For example, cash is the most liquid asset because you can use it immediately.  
-        However, things like real estate may take longer to sell and could be harder to convert to cash without potentially losing value." className="text-blue-600 tooltip"> Liquidity</span> means how fast you can turn your investment into cash.
+    <span title="Liquidity = how fast you can sell for cash. Cash? Instant 💸 Console? Takes a bit 🎮 Art? Might take a looooong while 🎨" className="text-blue-600 tooltip"> Liquidity</span> means how fast you can turn your investment into cash.
       If you need the money soon, choose something easy to access. 
     </p>
   </div>
@@ -279,25 +277,25 @@ const CourseContent = () => {
           <div className="space-y-4">
             <p className="mb-3">
               A{" "}
-              <span title="Part ownership in a company" className="underline dotted cursor-help">
+              <span title="A stock is a tiny slice of ownership in a company. Owning stock means you're a part-owner and share in its profits (or losses)! 📈" className="text-blue-600 tooltip">
                 stock
               </span>{" "}
               is a part ownership in a company.
             </p>
             <p className="mb-3">
               You can earn from stocks through{" "}
-              <span title="When a stock increases in value" className="underline dotted cursor-help">
+              <span title="Capital appreciation is when your investment grows in value over time—basically, buying low, selling high, and pocketing the difference! 🚀" className="text-blue-600 tooltip">
                 capital appreciation
               </span>{" "}
               or{" "}
-              <span title="Earnings paid to shareholders" className="underline dotted cursor-help">
+              <span title="Dividends are like little bonus payments companies give shareholders as a "thank you" for owning their stock! 💸" className="text-blue-600 tooltip">
                 dividends
               </span>
               .
             </p>
             <p className="mb-3 font-semibold">Why do companies sell stock?</p>
             <p className="mb-3">To raise money and grow their business.</p>
-            <p className="mb-3">Selling shares helps fund things like expansion, research, or paying off debt.</p>
+            <p className="mb-3">Selling <span title="Shares are units of stock. Imagine a pizza: the pizza is the stock, and each slice is a share. The more slices (shares) you have, the bigger your piece of the company! 🍕" className="text-blue-600 tooltip">shares</span> helps fund things like expansion, research, or paying off debt.</p>
           </div>
         ),
       },
