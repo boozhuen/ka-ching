@@ -288,7 +288,7 @@ const CourseContent = () => {
                 capital appreciation
               </span>{" "}
               or{" "}
-              <span title="Dividends are like little bonus payments companies give shareholders as a "thank you" for owning their stock! 💸" className="text-blue-600 tooltip">
+              <span title="Dividends are like little bonus payments companies give shareholders as a 'thank you' for owning their stock! 💸" className="text-blue-600 tooltip">
                 dividends
               </span>
               .
