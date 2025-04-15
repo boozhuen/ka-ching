@@ -278,7 +278,7 @@ const CourseContent = () => {
     <p>
       The longer you invest, the more ups and downs your money can handle. {" "}
       <span className="text-blue-600 tooltip-wrapper">
-            risk
+            Risk
             <div className="tooltip-box">
               <p className="tooltip-text font-medium mb-1">Risk = chance you lose money.</p>
               <ul className="list-none pl-4 m-0 space-y-1">
@@ -288,6 +288,7 @@ const CourseContent = () => {
               </ul>
             </div>
           </span>
+      {" "} evens out over time—so don’t fear it if you’re in for the long haul.
     </p>
   </div>
 
@@ -382,7 +383,7 @@ const CourseContent = () => {
         content: (
           <div className="space-y-4">
             <p className="mb-3">
-              Stock markets, also known as 
+              Stock markets, also known as {" "}
               <span className="text-blue-600 tooltip-wrapper">
                 stock exchangers
                 <div className="tooltip-box">
@@ -618,7 +619,7 @@ const CourseContent = () => {
             <ol style={{ paddingLeft: "1.2rem", listStyleType: "decimal", lineHeight: "1.6" }}>
               <li>🏢 A private company decides to go public to raise money.</li>
               <li>💼 It works with investment banks to set an initial stock price.</li>
-              <li>🏦 The stock is offered to 
+              <li>🏦 The stock is offered to {" "}
               <span className="text-blue-600 tooltip-wrapper">
                     institutional investors
                     <div className="tooltip-box">
@@ -980,36 +981,55 @@ const CourseContent = () => {
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>🔍 Fundamental Analysis</h3>
             <p style={{ marginBottom: "1rem" }}>
               Fundamental analysis looks at both the{" "}
-              <span
-                title="Financial data such as revenue, profits, and ratios"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                quantitative
-              </span>{" "}
+              <span className="text-blue-600 tooltip-wrapper">
+            quantitative
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Quantitative analysis = using numbers to make money moves. 📊💰</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>It’s like analyzing sneaker resale prices with spreadsheets to decide what to flip.</li>
+                <li>But here, it's stock prices, trends, ratios, and data models.</li>
+              </ul>
+              <p className="tooltip-text font-medium">Nothing is based on vibes or guessing. Just cold, hard numbers. 🧠💻</p>
+            </div>
+          </span>{" "}
               (numbers) and{" "}
-              <span
-                title="Non-financial factors like brand strength, leadership, or market trends"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                qualitative
-              </span>{" "}
+              <span className="text-blue-600 tooltip-wrapper">
+            qualitative
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Qualitative analysis = judging stocks by the vibe, not the numbers. 🔍✨</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>You’re looking at the brand, CEO, business model, and customer loyalty — like asking,</li>
+                <li>“Is this company cool? Do people trust it? Is the team solid?”</li>
+              </ul>
+              <p className="tooltip-text font-medium">Less numbers, more vibe checks. 🧠🫶</p>
+            </div>
+          </span>{" "}
               (story) aspects of a company to help investors determine the{" "}
-              <span
-                title="What the stock is actually worth based on its fundamentals, not market price"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                intrinsic value
-              </span>{" "}
-              of a stock — in other words, to decide if the company is worth more than its current price.
+              <span className="text-blue-600 tooltip-wrapper">
+            intrinsic value
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Intrinsic value = what something’s really worth. 💎</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>Like finding a rare Supreme tee at a thrift shop for $10.</li>
+                <li>It may look cheap, but you know it’s worth way more. 🧢🔥</li>
+              </ul>
+              <p className="tooltip-text font-medium">It’s the true value, not the price tag.</p>
+            </div>
+          </span>{" "}
+              of a stock. In other words, to decide if the company is worth more than its current price.
             </p>
             <p>
               This approach is best suited for investors with a{" "}
-              <span
-                title="A time horizon typically ranging from several months to years"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                mid-to-long-term
-              </span>{" "}
+              <span className="text-blue-600 tooltip-wrapper">
+            mid-to-long term
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Mid-to-long term = not a quick flip, but not forever either. ⏳📈</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>Think: months to years. Like holding a stock till you graduate university or even get your first BTO. 🎓🏠</li>
+              </ul>
+              <p className="tooltip-text font-medium">It’s the slow grind — steady growth, bigger goals.</p>
+            </div>
+          </span>{" "}
               investment horizon.
             </p>
             <div style={{ marginTop: "2rem"}}>
@@ -1051,61 +1071,89 @@ const CourseContent = () => {
             <p style={{ marginBottom: "1rem" }}>
               For example, imagine a vintage leather jacket priced at <strong>$10</strong>. After inspecting it, you
               realize it's a high-end brand, in excellent condition, and rare. You'd know this item is{" "}
-              <span
-                title="When something is selling for less than what it's truly worth"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                undervalued
-              </span>{" "}
+              <span className="text-blue-600 tooltip-wrapper">
+            undervalued
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Undervalued means that a stock is being sold for less than what it's actually worth. </p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>It's like finding a really good deal on something valuable at a garage sale.</li>
+                 <li>It's priced lower than its true value.</li>
+              </ul>
+              <p className="tooltip-text font-medium">Price tag<True value!</p>
+            </div>
+          </span>{" "}
               and likely a great buy.
             </p>
 
             <p style={{ marginBottom: "1rem" }}>
               Similarly, in the stock market, if the{" "}
-              <span
-                title="What the stock is truly worth based on analysis"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                fair market value
-              </span>{" "}
+              <span className="text-blue-600 tooltip-wrapper">
+            fair market value
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Fair market value measures what the item is usually worth. </p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>It is also known as intrinsic value.</li>
+              </ul>
+            </div>
+          </span>{" "}
               (or{" "}
-              <span
-                title="Another term for fair market value based on financial fundamentals"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                intrinsic value
-              </span>
+              <span className="text-blue-600 tooltip-wrapper">
+            intrinsic value
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Intrinsic value = what something’s really worth. 💎</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>Like finding a rare Supreme tee at a thrift shop for $10.</li>
+                <li>It may look cheap, but you know it’s worth way more. 🧢🔥</li>
+              </ul>
+              <p className="tooltip-text font-medium">It’s the true value, not the price tag.</p>
+            </div>
+          </span>
               ) is higher than the{" "}
-              <span
-                title="The price you see on the stock exchange"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                market price
-              </span>
+              <span className="text-blue-600 tooltip-wrapper">
+            market price
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">This is the price you see on the stock exchange.</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>Like finding a rare Supreme tee at a thrift shop for $10.</li>
+                <li>It may look cheap, but you know it’s worth way more. 🧢🔥</li>
+              </ul>
+              <p className="tooltip-text font-medium">It’s the true value, not the price tag.</p>
+            </div>
+          </span>
               , the stock is undervalued — and analysts may issue a <strong>buy</strong> recommendation.
             </p>
 
             <p style={{ marginBottom: "1rem" }}>
               On the other hand, imagine spotting a worn-out t-shirt for <strong>$40</strong> with no brand and little
               appeal. You'd know it's{" "}
-              <span
-                title="When something is priced higher than its actual worth"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                overvalued
-              </span>{" "}
+              <span className="text-blue-600 tooltip-wrapper">
+            overvalued
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Undervalued means that a stock is being sold for less than what it's actually worth.</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>It's like paying more for a used car than you would for a new one.</li>
+                <li>It's priced above its true value.</li>
+              </ul>
+              <p className="tooltip-text font-medium">It’s the true value, not the price tag.</p>
+            </div>
+          </span>{" "}
               and not worth the price. In investing, that would likely lead to a <strong>sell (short)</strong>{" "}
               recommendation.
             </p>
 
             <p style={{ fontStyle: "italic", fontSize: "0.95rem", color: "#555" }}>
-              💡 Note: <strong>Fair market value</strong> is also known as{" "}
-              <span
-                title="The true value of a stock based on analysis of its business fundamentals"
-                style={{ textDecoration: "underline dotted", cursor: "help" }}
-              >
-                intrinsic value
-              </span>
+              💡 Note: <strong>Fair market value</strong> is also known as {" "}
+              <span className="text-blue-600 tooltip-wrapper">
+            intrinsic value
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Intrinsic value = what something’s really worth. 💎</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>Like finding a rare Supreme tee at a thrift shop for $10.</li>
+                <li>It may look cheap, but you know it’s worth way more. 🧢🔥</li>
+              </ul>
+              <p className="tooltip-text font-medium">It’s the true value, not the price tag.</p>
+            </div>
+          </span>
               .
             </p>
             <div style={{ marginTop: "2rem"}}>
@@ -1126,6 +1174,29 @@ const CourseContent = () => {
         ),
       },
     ],
+    [
+      {title: "Introduction to Fundamental Analysis II",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Coming Soon!
+            </h3>
+      <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+      ],
     //Add more sections as needed
   ]
 ]
