@@ -526,6 +526,7 @@ const CourseContent = () => {
       </div>
     </div>
       </div>
+      </div>
     ),
   },
 ],
@@ -707,6 +708,7 @@ const CourseContent = () => {
         </ul>
       </div>
     </div>
+      </div>
   </div>
 </div>
 </div>
