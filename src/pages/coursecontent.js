@@ -308,6 +308,20 @@ const CourseContent = () => {
       {" "} means how fast you can turn your investment into cash. If you need the money soon, choose something easy to access. 
     </p>
   </div>
+      <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-1.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
 </div>
 
         
@@ -342,7 +356,21 @@ const CourseContent = () => {
             <p className="mb-3 font-semibold">Why do companies sell stock?</p>
             <p className="mb-3">To raise money and grow their business.</p>
             <p className="mb-3">Selling <span title="Shares are units of stock. Imagine a pizza: the pizza is the stock, and each slice is a share. The more slices (shares) you have, the bigger your piece of the company! 🍕" className="text-blue-600 tooltip">shares</span> helps fund things like expansion, research, or paying off debt.</p>
-          </div>
+      <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-2.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>    
+      </div>
         ),
       },
     ],
@@ -393,6 +421,20 @@ const CourseContent = () => {
             <p className="mb-3">
               <strong>SGX:</strong> Singapore Stock Exchange.
             </p>
+      <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
           </div>
         ),
       },
@@ -443,6 +485,20 @@ const CourseContent = () => {
               <li>Only for wealthy individuals or institutions</li>
               <li>Fewer rules, faster and cheaper</li>
             </ul>
+      <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-4.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
           </div>
         ),
       },
@@ -526,6 +582,20 @@ const CourseContent = () => {
       </div>
     </div>
       </div>
+      <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-5.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
       </div>
     ),
   },
@@ -564,6 +634,20 @@ const CourseContent = () => {
                   </li>
               <li>📈 Once trading begins, anyone can buy shares on the open market.</li>
             </ol>
+      <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-6.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
           </div>
         ),
       },
@@ -711,6 +795,20 @@ const CourseContent = () => {
       </div>
   </div>
 </div>
+<div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-7.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
 </div>
 
       
@@ -724,13 +822,27 @@ const CourseContent = () => {
         title: "Market Capitalization",
         type: "content",
         content: (
-          <div style={{ border: "1px solid #ccc", borderRadius: "10px", padding: "1.5rem", maxWidth: "600px" }}>
+          <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>📊 Market Capitalization</h3>
             <p>
               Market Capitalization is another way stocks are categorised. <br />
               <strong>Market Capitalization = Total value of a company’s shares held by investors</strong> <br />
               (Owned by investors: retail, institutional, or insiders)
             </p>
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-8.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
           </div>
         ),
       },
@@ -776,6 +888,20 @@ const CourseContent = () => {
                 <li>🧪 In small niche industry</li>
               </ul>
             </div>
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-9.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
           </div>
         ),
       },
@@ -820,6 +946,20 @@ const CourseContent = () => {
                 <li>🔥 Risk: High</li>
                 <li>📈 No dividends, only capital appreciation</li>
               </ul>
+            </div>
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-1-10.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
             </div>
           </div>
         ),
