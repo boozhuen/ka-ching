@@ -739,7 +739,7 @@ const CourseContent = () => {
                   height: "auto",
                   borderRadius: "8px",
                   boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-                  display: "block",
+                  display: "inline-block",
                   margin: "2rem auto 0",
                 }}
               />
