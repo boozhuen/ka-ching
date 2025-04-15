@@ -630,7 +630,6 @@ const CourseContent = () => {
                     </div>
                   </span>
                   {" "} individuals
-                  </ul>
                   </li>
                 </div>
               </div>
@@ -698,7 +697,7 @@ const CourseContent = () => {
                     </div>
                   </span>
                   {" "} individuals
-                  </ul>
+                  </li>
                 </div>
               </div>
             </div>
