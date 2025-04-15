@@ -243,18 +243,15 @@ const CourseContent = () => {
   <div>
     <h3 className="text-lg font-semibold">⏳ Time Affects Strategy</h3>
     <p>
-      Short-term vs. long-term goals need different plans. A 30-year goal lets you take more 
-      <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltip"> risk</span>. 
-      A 1-year goal? Keep it stable and 
-      <span title="Liquidity is how easily an asset can be turned into cash." className="text-blue-600 tooltip"> liquid</span>.
+      Short-term vs. long-term goals need different plans. A 30-year goal lets you take more <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltip">risk</span>. 
+      A 1-year goal? Keep it stable and <span title="Liquidity is how easily an asset can be turned into cash." className="text-blue-600 tooltip">liquid</span>.
     </p>
   </div>
 
   <div>
     <h3 className="text-lg font-semibold">⚠️ Risk Over Time</h3>
     <p>
-      The longer you invest, the more ups and downs your money can handle.
-      <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltip"> Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
+      The longer you invest, the more ups and downs your money can handle. <span title="Risk refers to the possibility that your investment loses value." className="text-blue-600 tooltip">Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
     </p>
   </div>
 
