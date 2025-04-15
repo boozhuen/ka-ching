@@ -695,7 +695,7 @@ const CourseContent = () => {
         title: "Introduction to Fundamental Analysis I",
         type: "content",
         content: (
-          <div style={{ border: "1px solid #ccc", borderRadius: "10px", padding: "1.5rem", maxWidth: "700px" }}>
+          <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>🔍 Fundamental Analysis</h3>
             <p style={{ marginBottom: "1rem" }}>
               Fundamental analysis looks at both the{" "}
@@ -734,9 +734,8 @@ const CourseContent = () => {
             <div style={{ marginTop: "2rem", textAlign: "center" }}>
               <img
                 src="/Module 2.1.png"
-                alt="Module 2.1 - Thrift Store Analogy"
                 style={{
-                  maxWidth: "100%",
+                  maxWidth: "auto%",
                   height: "auto",
                   borderRadius: "8px",
                   boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)"
