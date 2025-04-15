@@ -497,6 +497,7 @@ const CourseContent = () => {
                     </div>
                   </span>
                   .
+                  </li>
                   <li>They hold inventory and decide prices.</li>
                   <li><strong>Example:</strong> NASDAQ</li>
                 </ul>
