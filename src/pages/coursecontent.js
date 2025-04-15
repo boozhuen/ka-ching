@@ -1196,7 +1196,7 @@ const CourseContent = () => {
                 }}
               />
             </div>
-      ],
+      ]
     //Add more sections as needed
   ]
 ]
