@@ -275,7 +275,6 @@ const CourseContent = () => {
     ],
     // SECTION 1 MODULE 2
     [
-      {
         title: "What is a Stock?",
         type: "content",
         content: (
@@ -303,7 +302,6 @@ const CourseContent = () => {
             <p className="mb-3">Selling shares helps fund things like expansion, research, or paying off debt.</p>
           </div>
         ),
-      },
     ],
     // SECTION 1 MODULE 3
     [
