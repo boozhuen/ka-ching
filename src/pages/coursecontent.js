@@ -483,8 +483,21 @@ const CourseContent = () => {
               </div>
               <div className="flip-card-back">
                 <ul className="space-y-1 text-sm">
-                  <li>You trade through a middleman called a <strong>market maker</strong></li>
-                  <li>They hold inventory and decide prices</li>
+                  <li>You trade through a middleman called a {" "}
+                  <span className="text-blue-600 tooltip-wrapper">
+                    <strong> market maker </strong>
+                    <div className="tooltip-box">
+                      <p className="tooltip-text font-medium mb-1">Market maker = the middleman who keeps the stock market moving.</p>
+                      <ul className="list-none pl-4 m-0 space-y-1">
+                        <li>Imagine you’re at a thrift shop. You want to sell a hoodie, but no buyer’s around.</li>
+                        <li>Boom! A market maker steps in, buys it from you instantly, then resells it later.</li>
+                        <li>They always show up to buy or sell, so trading stays fast and smooth. 🧥⚡</li>
+                      <p className="tooltip-text font-medium mb-1">No buyers? No problem. Market maker’s got your back.</p>
+                      </ul>
+                    </div>
+                  </span>
+                  .
+                  <li>They hold inventory and decide prices.</li>
                   <li><strong>Example:</strong> NASDAQ</li>
                 </ul>
               </div>
@@ -518,7 +531,7 @@ const CourseContent = () => {
         title: "Going Public with IPO",
         type: "content",
         content: (
-          <div style={{ border: "1px solid #ccc", borderRadius: "10px", padding: "1.5rem", maxWidth: "600px" }}>
+          <div className="space-y-4 leading-relaxed text-base">
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
               🚀 How Companies Sell Stocks
             </h3>
