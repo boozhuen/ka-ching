@@ -276,15 +276,36 @@ const CourseContent = () => {
   <div>
     <h3 className="text-lg font-semibold">⚠️ Risk Over Time</h3>
     <p>
-      The longer you invest, the more ups and downs your money can handle. <span title="Risk = chance you lose money. Buying from a thrift shop:A branded tee for $5? Might be real (win!) or fake (loss). It’s a gamble 🎲—you could score big 💰 or waste your cash 💸 That’s risk. The bigger the deal, the bigger the risk." className="text-blue-600 tooltip">Risk</span> evens out over time—so don’t fear it if you’re in for the long haul.
+      The longer you invest, the more ups and downs your money can handle. {" "}
+      <span className="text-blue-600 tooltip-wrapper">
+            risk
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Risk = chance you lose money.</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>Buying from a thrift shop: A branded tee for $5? Might be real (win!) or fake (loss).</li>
+                <li>It’s a gamble 🎲—you could score big 💰 or waste your cash 💸</li>
+              <p className="tooltip-text font-medium mb-1">That’s risk. The bigger the deal, the bigger the risk.</p>
+              </ul>
+            </div>
+          </span>
     </p>
   </div>
 
   <div>
     <h3 className="text-lg font-semibold">💧 Liquidity = Access</h3>
     <p>
-    <span title="Liquidity = how fast you can sell for cash. Cash? Instant 💸 Console? Takes a bit 🎮 Art? Might take a looooong while 🎨" className="text-blue-600 tooltip"> Liquidity</span> means how fast you can turn your investment into cash.
-      If you need the money soon, choose something easy to access. 
+      <span className="text-blue-600 tooltip-wrapper">
+            Liquidity
+            <div className="tooltip-box">
+              <p className="tooltip-text font-medium mb-1">Liquidity = how fast you can sell for cash.</p>
+              <ul className="list-none pl-4 m-0 space-y-1">
+                <li>💸 Cash? Instant</li>
+                <li>🎮 Console? Takes a bit</li>
+                <li>🎨 Art? Might take a looooong while</li>
+              </ul>
+            </div>
+          </span>
+      {" "} means how fast you can turn your investment into cash. If you need the money soon, choose something easy to access. 
     </p>
   </div>
 </div>
@@ -333,8 +354,31 @@ const CourseContent = () => {
         content: (
           <div className="space-y-4">
             <p className="mb-3">
-              Stock markets, also known as stock exchanges, are like an auction house — matching buyers and sellers via
-              online brokers.
+              Stock markets, also known as 
+              <span className="text-blue-600 tooltip-wrapper">
+                stock exchangers
+                <div className="tooltip-box">
+                  <p className="tooltip-text font-medium mb-1">Stock exchange = the thrift shop for stocks.</p>
+                  <ul className="list-none pl-4 m-0 space-y-1">
+                    <li>It’s where people buy and sell shares, like how folks trade clothes or sneakers at a thrift shop.</li>
+                    <li>You list it, someone buys it, prices go up or down based on demand.</li>
+                  <p className="tooltip-text font-medium mb-1">It’s basically Carousell—but for companies. 📱📈</p>
+                  </ul>
+                </div>
+              </span>
+              {" "} stock exchanges, are like an auction house — matching buyers and sellers via {" "}
+              <span className="text-blue-600 tooltip-wrapper">
+                online brokers
+                <div className="tooltip-box">
+                  <p className="tooltip-text font-medium mb-1">Online brokers = your stock shopping app.</p>
+                  <ul className="list-none pl-4 m-0 space-y-1">
+                    <li>Just like how you use Carousell to buy sneakers, you use apps like them to buy shares.</li>
+                    <li>They help you find stocks, place orders, and handle all the boring money stuff behind the scenes. 🛒📈</li>
+                  <p className="tooltip-text font-medium mb-1">You shop, they connect you to the stock market.</p>
+                  </ul>
+                </div>
+              </span>
+              .
             </p>
             <p className="mb-3">There are many stock exchanges around the world.</p>
             <p className="mb-3">
@@ -379,12 +423,18 @@ const CourseContent = () => {
               <li>Comes with more regulation</li>
               <li>
                 Requires an{" "}
-                <span
-                  title="Initial Public Offering: when a company sells shares to the public for the first time"
-                  className="underline decoration-dotted cursor-help text-blue-600"
-                >
-                  IPO
-                </span>
+                <span className="text-blue-600 tooltip-wrapper">
+                IPO
+                <div className="tooltip-box">
+                  <p className="tooltip-text font-medium mb-1">IPO = a company’s first time selling shares to the public.</p>
+                  <ul className="list-none pl-4 m-0 space-y-1">
+                    <li>Like when a streetwear brand goes from underground to officially selling in stores. 🧢🔥</li>
+                    <li>Before IPO = private, invite-only vibes.</li>
+                    <li>After IPO = open to everyone. You can now buy a piece of the brand. 🛒📈</li>
+                  <p className="tooltip-text font-medium mb-1">It’s their stock market debut.</p>
+                  </ul>
+                </div>
+              </span>
               </li>
             </ul>
 
@@ -399,76 +449,69 @@ const CourseContent = () => {
     ],
     // SECTION 1 MODULE 5
     [
-      {
-        title: "Secondary Market",
-        type: "content",
-        content: (
-          <div>
-            <p>
-              <strong>🟢 What Is It?</strong>
-            </p>
-            <p>
-              The <strong>Secondary Market</strong> is where existing stocks are bought and sold between investors.
-            </p>
-            <p>🏢 The company doesn't receive money in these trades.</p>
+  {
+    title: "Secondary Market",
+    type: "content",
+    content: (
+      <div className="space-y-4 leading-relaxed text-base">
+        <p><strong>🟢 What Is It?</strong></p>
+        <p>The <strong>Secondary Market</strong> is where existing stocks are bought and sold between investors.</p>
+        <p>🏢 The company doesn't receive money in these trades.</p>
 
-            <p>
-              <strong>🎟️ A Simple Example</strong>
-            </p>
-            <p>Imagine you bought tickets to a concert and can't go, so you sell them to a friend.</p>
-            <p>
-              That's like a stock trade in the secondary market. You're not paying the artist again—just reselling the
-              ticket.
-            </p>
+        <p><strong>🎟️ A Simple Example</strong></p>
+        <p>Imagine you bought tickets to a concert and can't go, so you sell them to a friend.</p>
+        <p>
+          That's like a stock trade in the secondary market. You're not paying the artist again—just reselling the
+          ticket.
+        </p>
 
-            <p>
-              <strong>🔍 Why It Matters</strong>
-            </p>
-            <ul>
-              <li>✅ You can buy or sell stocks anytime</li>
-              <li>💲 Helps find the market price of a stock</li>
-              <li>🔁 Keeps the market active and easy to trade in</li>
-            </ul>
+        <p><strong>🔍 Why It Matters</strong></p>
+        <ul className="list-disc list-inside space-y-1 pl-4">
+          <li>✅ You can buy or sell stocks anytime</li>
+          <li>💲 Helps find the market price of a stock</li>
+          <li>🔁 Keeps the market active and easy to trade in</li>
+        </ul>
 
-            <p>
-              <strong>🛍️ Two Types of Secondary Markets</strong>
-            </p>
+        <p><strong>🛍️ Two Types of Secondary Markets</strong></p>
 
-            <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
-              {/* Dealer Market */}
-              <div
-                style={{ flex: "1", minWidth: "250px", border: "1px solid #ccc", borderRadius: "8px", padding: "1rem" }}
-              >
-                <h4>1. Dealer Market</h4>
-                <ul>
-                  <li>
-                    You trade through a middleman called a <strong>market maker</strong>
-                  </li>
-                  <li>They hold inventory and decide prices</li>
-                  <li>
-                    <strong>Example:</strong> NASDAQ
-                  </li>
-                </ul>
+        <div className="flex flex-wrap gap-6 mt-4">
+          {/* Flip Card: Dealer Market */}
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <h4 className="font-semibold text-center">1. Dealer Market</h4>
               </div>
-
-              {/* Auction Market */}
-              <div
-                style={{ flex: "1", minWidth: "250px", border: "1px solid #ccc", borderRadius: "8px", padding: "1rem" }}
-              >
-                <h4>2. Auction Market</h4>
-                <ul>
-                  <li>Buyers and sellers trade directly</li>
-                  <li>Prices are matched based on highest bid and lowest ask</li>
-                  <li>
-                    <strong>Example:</strong> NYSE
-                  </li>
+              <div className="flip-card-back">
+                <ul className="space-y-1 text-sm">
+                  <li>You trade through a middleman called a <strong>market maker</strong></li>
+                  <li>They hold inventory and decide prices</li>
+                  <li><strong>Example:</strong> NASDAQ</li>
                 </ul>
               </div>
             </div>
           </div>
-        ),
-      },
-    ],
+
+        {/* Flip Card: Auction Market */}
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <h4 className="font-semibold text-center">2. Auction Market</h4>
+            </div>
+            <div className="flip-card-back">
+              <ul className="space-y-1 text-sm">
+                <li>Buyers and sellers trade directly</li>
+                <li>Prices are matched based on highest bid and lowest ask</li>
+                <li><strong>Example:</strong> NYSE</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    ),
+  },
+],
+
     // SECTION 1 MODULE 6
     [
       {
