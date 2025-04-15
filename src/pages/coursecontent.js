@@ -492,8 +492,8 @@ const CourseContent = () => {
                         <li>Imagine you’re at a thrift shop. You want to sell a hoodie, but no buyer’s around.</li>
                         <li>Boom! A market maker steps in, buys it from you instantly, then resells it later.</li>
                         <li>They always show up to buy or sell, so trading stays fast and smooth. 🧥⚡</li>
-                      <p className="tooltip-text font-medium mb-1">No buyers? No problem. Market maker’s got your back.</p>
                       </ul>
+                      <p className="tooltip-text font-medium mb-1">No buyers? No problem. Market maker’s got your back.</p>
                     </div>
                   </span>
                   .
