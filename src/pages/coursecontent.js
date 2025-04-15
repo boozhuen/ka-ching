@@ -731,12 +731,16 @@ const CourseContent = () => {
               </span>{" "}
               investment horizon.
             </p>
-            <div className="member-image w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-3 border-[#5a7d53] p-1">
+            <div style={{ marginTop: "2rem", textAlign: "center" }}>
               <img
-                src={require("Module 2.1.png")}
-                width={128}
-                height={128}
-                className="rounded-full w-full h-full object-cover"
+                src="/Module 2.1.png"
+                alt="Module 2.1 - Thrift Store Analogy"
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)"
+                }}
               />
             </div>
           </div>
