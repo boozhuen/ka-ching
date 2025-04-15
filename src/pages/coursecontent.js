@@ -1196,10 +1196,13 @@ const CourseContent = () => {
                 }}
               />
             </div>
-      ]
+                </div>
+),
+  },
+      ],
     //Add more sections as needed
-  ]
-]
+  ];
+
 
   // Quiz data matching quizKey format
   const quizData = {
