@@ -617,20 +617,19 @@ const CourseContent = () => {
                     </div>
                   </span>
                   </li>
-                  <li> 
+                  <li>
                   <span className="text-blue-600 tooltip-wrapper">
                     Risk-tolerant
-                    <div className="tooltip-box">
-                      <p className="tooltip-text font-medium mb-1">Risk tolerant = chill with taking Ls for bigger Ws. 🎢</p>
-                      <ul className="list-none pl-4 m-0 space-y-1">
-                        <li>You’re okay with ups and downs, like buying crypto or flipping thrift finds that might not sell.</li>
-                        <li>Could gain big 💰, could lose some 💸 — but you’re cool with the ride.</li>
-                      </ul>
-                      <p className="tooltip-text font-medium mb-1"> High risk? No panic. You’re built for it. </p>
-                    </div>
-                  </span>
-                  {" "} individuals
-                  </li>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">Risk tolerant = chill with taking Ls for bigger Ws. 🎢</p>
+                    <ul className="list-none pl-4 m-0 space-y-1">
+                      <li>You’re okay with ups and downs, like buying crypto or flipping thrift finds that might not sell.</li>
+                      <li>Could gain big 💰, could lose some 💸 — but you’re cool with the ride.</li>
+                    </ul>
+                  <p className="tooltip-text font-medium mb-1">High risk? No panic. You’re built for it.</p>
+                  </div>
+                  </span> {" "} ndividuals
+                  </li> 
                 </div>
               </div>
             </div>
