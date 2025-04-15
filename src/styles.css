@@ -772,6 +772,7 @@ details summary::-webkit-details-marker {
 
 .tooltip:hover::after {
   opacity: 1; /* Show the tooltip on hover */
+  z-index:9999;
 }
 
 .tooltip::after {
