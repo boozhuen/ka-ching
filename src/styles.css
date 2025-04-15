@@ -816,7 +816,7 @@ details summary::-webkit-details-marker {
 }
 
 .flip-card {
-  background-color: #e6fdf3;
+  background-color: #E5C960;
   width: 280px;
   height: 180px;
   perspective: 1000px;
@@ -845,7 +845,7 @@ details summary::-webkit-details-marker {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   backface-visibility: hidden;
-  background: ##e6fdf3;
+  background: #E5C960;
 }
 
 .flip-card-front {
