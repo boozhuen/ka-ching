@@ -485,7 +485,7 @@ const CourseContent = () => {
                 <ul className="space-y-1 text-sm">
                   <li>You trade through a middleman called a {" "}
                   <span className="text-blue-600 tooltip-wrapper">
-                    <strong> market maker </strong>
+                    <strong>market maker</strong>
                     <div className="tooltip-box">
                       <p className="tooltip-text font-medium mb-1">Market maker = the middleman who keeps the stock market moving.</p>
                       <ul className="list-none pl-4 m-0 space-y-1">
