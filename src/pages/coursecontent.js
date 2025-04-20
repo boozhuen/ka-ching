@@ -1174,32 +1174,6 @@ const CourseContent = () => {
         ),
       },
     ],
-    [
-      {title: "Company Valuation",
-        type: "content",
-        content: (
-          <div>
-            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Coming Soon!
-            </h3>
-      <div style={{ marginTop: "2rem"}}>
-              <img
-                src="/Module-2-3.png"
-                style={{
-                  maxWidth: "500px",
-                  height: "auto",
-                  borderRadius: "8px",
-                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-                  display: "block",
-                  marginTop: "2rem",
-                  marginLeft: 0
-                }}
-              />
-            </div>
-                </div>
-),
-  },
-      ],
 
       //SECTION 2 MODULE 3
     [
