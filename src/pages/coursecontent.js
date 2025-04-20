@@ -1213,7 +1213,7 @@ const CourseContent = () => {
             <p style={{marginBottom: "1rem"}}>
                 Financial statements are like a company's report card. They provide a snapshot of a company's financial performance, helping investors understand how well the business is doing.
                 There are three core financial statements that work together to paint a complete picture:
-                <ol className="list-none pl-4 m-0 space-y-1">
+                <ol>
                   <li>
                     <span className="text-blue-600 tooltip-wrapper">
                       <strong>Income Statement</strong>
@@ -1243,7 +1243,7 @@ const CourseContent = () => {
                       <strong>Cash Flow Statement</strong>
                       <div className="tooltip-box">
                         <p className="tooltip-text font-medium mb-1">
-                          It shows how cash enters (from sales) and how it leaves (for bills, investments, etfc.). It tells you if the company is staying liquid or running out of cash.
+                          It shows how cash enters (from sales) and how it leaves (for bills, investments, etc.). It tells you if the company is staying liquid or running out of cash.
                         </p>
                       </div>
                     </span>
@@ -1252,11 +1252,70 @@ const CourseContent = () => {
                 </ol>
             </p>
           </div>
-
-          
         ),
       },
     ],
+
+    //Section 2 Module 4
+    [
+      {
+        title: "Income Statement I",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              📃 Understanding Income Statements
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              The income statement is like the <strong>receipt</strong> from your thrift store shopping spree. It lists how much the store made (revenue) and what it spent to get the items (expenses). 
+              Subtracting expenses from revenue, gives the store's profit —  the final amount the shop earned.
+            </p>
+
+            <p>
+              <ul>
+                <li>
+                  Total Revenue: How much the company earned
+                </li>
+                <li>
+                  Expenses: What the company spent
+                </li>
+                <li>
+                  Net Income: Profit or less
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              For example, if the thrift store <strong>earns $100</strong> from selling clothes but <strong>spent $60</strong> buying them, the store has <strong>$40 left</strong> over, which is the <strong>gross profit</strong>. 
+              That is the shop's profit after its cost of acquiring new items. 
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-4.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+
+            <p>
+              <em>Note</em>: In the income statement, values  with brackets around them indicate that they are negative values. 
+              <br>
+              As such, the '($60)' shown here indicates '-$60'.
+              </br>
+            </p>
+          </div>
+        )
+      }
+    ]
     //Add more sections as needed
   ]
 ]
