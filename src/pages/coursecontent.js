@@ -1205,6 +1205,52 @@ const CourseContent = () => {
                 }}
               />
             </div>
+
+            <h3 style={{fontSize: "1.2rem", fontWeight: "bold", marginBottom:"1rem"}}>
+              📑 What are Financial Statements?
+            </h3>
+
+            <p style={{marginBottom: "1rem"}}>
+                Financial statements are like a company's report card. They provide a snapshot of a company's financial performance, helping investors understand how well the business is doing.
+                There are three core financial statements that work together to paint a complete picture:
+                <ol className="list-none pl-4 m-0 space-y-1">
+                  <li>
+                    <span className="text-blue-600 tooltip-wrapper">
+                      <strong>Income Statement</strong>
+                      <div className="tooltip-box">
+                        <p className="tooltip-text font-medium mb-1">
+                          It shows how much the company made (revenue) and how much they spent (expenses), telling you if they're winning or losing money over a period of time.
+                        </p>
+                      </div>
+                    </span>
+                    : The Profit Story
+                  </li>
+
+                  <li>
+                    <span className="text-blue-600 tooltip-wrapper">
+                      <strong>Balance Sheet</strong>
+                      <div className="tooltip-box">
+                        <p className="tooltip-text font-medium mb-1">
+                          It shows what the company owns (assets), what they owe (liabilities), and what is left over for the owners (equity). It's the company's financial health in one page.
+                        </p>
+                      </div>
+                    </span>
+                    : The Financial Snapshot
+                  </li>
+
+                  <li>
+                    <span className="text-blue-600 tooltip-wrapper">
+                      <strong>Cash Flow Statement</strong>
+                      <div className="tooltip-box">
+                        <p className="tooltip-text font-medium mb-1">
+                          It shows how cash enters (from sales) and how it leaves (for bills, investments, etfc.). It tells you if the company is staying liquid or running out of cash.
+                        </p>
+                      </div>
+                    </span>
+                    : The Money Movement Tracker
+                  </li>
+                </ol>
+            </p>
           </div>
 
           
