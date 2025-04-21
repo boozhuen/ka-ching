@@ -1324,9 +1324,8 @@ const CourseContent = () => {
 
             <p>
               <em>Note</em>: In the income statement, values  with brackets around them indicate that they are negative values. 
-              <br>
+              <br/>
               As such, the '($60)' shown here indicates '-$60'.
-              </br>
             </p>
 
           </div>
