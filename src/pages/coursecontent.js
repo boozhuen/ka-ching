@@ -1786,7 +1786,7 @@ const CourseContent = () => {
       
     ],
     //Add more sections as needed
-  ]
+  ],
 ]
 
 
