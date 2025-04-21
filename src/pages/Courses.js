@@ -105,7 +105,7 @@ const Courses = () => {
         {
           id: 1,
           title: "Start with your Why", //module 1.1.1
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -118,7 +118,7 @@ const Courses = () => {
         {
           id: 2,
           title: "What is a Stock?",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -140,7 +140,7 @@ const Courses = () => {
         {
           id: 3,
           title: "Meet the Markets",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -155,7 +155,7 @@ const Courses = () => {
         {
           id: 4,
           title: "Primary Market", //1.1.4
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -169,7 +169,7 @@ const Courses = () => {
         {
           id: 5,
           title: "Secondary Market",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -183,7 +183,7 @@ const Courses = () => {
         {
           id: 6,
           title: "Going Public: IPO",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -197,7 +197,7 @@ const Courses = () => {
         {
           id: 7,
           title: "Common vs Preferred Stock",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -211,7 +211,7 @@ const Courses = () => {
         {
           id: 8,
           title: "Market Capitalization",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -225,7 +225,7 @@ const Courses = () => {
         {
           id: 9,
           title: "Market Cap Categories",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -239,7 +239,7 @@ const Courses = () => {
         {
           id: 10,
           title: "Divdend, Value, Growth Stocks",
-          duration: "3 mins",
+          duration: "3 min",
           type: "content",
         },
         {
@@ -260,7 +260,7 @@ const Courses = () => {
         {
           id: 1,
           title: "Introduction to Fundamental Analysis I",
-          duration: "5 mins",
+          duration: "5 min",
           type: "content",
         },
         {
@@ -273,7 +273,7 @@ const Courses = () => {
         {
           id: 2,
           title: "Introduction to Fundamental Analysis II",
-          duration: "4 mins",
+          duration: "4 min",
           type: "content",
         },
         {
@@ -285,61 +285,321 @@ const Courses = () => {
         },
         {
           id: 3,
-          title: "Company Valuation",
-          duration: "6 mins",
+          title: "Company Valuation: Introduction to Financial Statements I",
+          duration: "3 min",
           type: "content",
         },
         {
           id: "3q",
-          title: "Company Valuation Quiz",
+          title: "Company Valuation: Introduction to Financial Statements I",
           type: "quiz",
           quizType: "mixed",
           relatedModuleId: 3,
+        },
+        {
+          id: 4, 
+          title: "Company Valuation: Introduction to Financial Statements II",
+          duration: "6 min",
+          type: "content",
+        },
+        {
+          id: "4q",
+          title: "Company Valuation: Introduction to Financial Statements II",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 4,
+        },
+        {
+          id: 5,
+          title: "Income Statement",
+          duration: "10 min",
+          type: "content",
+        },
+        {
+          id: "5q",
+          title: "Income Statement",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 5,
+        },
+        {
+          id: 6,
+          title: "Balance Sheet",
+          duration: "10 min",
+          type:"content",
+        },
+        {
+          id: "6q",
+          title: "Balance Sheet",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 6,
+        },
+        {
+          id: 7,
+          title: "Cash Flow Statement",
+          duration: "10 min",
+          type: "content",
+        },
+        {
+          id: "7q",
+          title: "Cash Flow Statement",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 7,
+        },
+        {
+          id: 8,
+          title: "Key Financial Ratios: Liquidity Ratios",
+          duration: "6 min",
+          type: "content",
+        },
+        {
+          id: "8q",
+          title: "Key Financial Ratios: Liquidity Ratios",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 8,
+        },
+        {
+          id: 9,
+          title: "Key Financial Ratios: Leverage Ratios",
+          duration: "6 min",
+          type: "content",
+        },
+        {
+          id: "9q",
+          title: "Key Financial Ratios: Leverage Ratios",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 9,
+        },
+        {
+          id: 10,
+          title: "Key Financial Ratios: Efficiency Ratios",
+          duration: "6 min",
+          type: "content",
+        },
+        {
+          id: "10q",
+          title: "Key Financial Ratios: Efficiency Ratios",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 10,
+        },
+        {
+          id: 11,
+          title: "Key Financial Ratios: Profitability Ratios",
+          duration: "6 min",
+          type: "content",
+        },
+        {
+          id: "11q",
+          title: "Key Financial Ratios: Profitability Ratios",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 11,
+        },
+        {
+          id: 12,
+          title: "Key Financial Ratios: Market Value Ratios",
+          duration: "6 min",
+          type: "content",
+        },
+        {
+          id: "12q",
+          title: "Key Financial Ratios: Market Value Ratios",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 12,
         },
       ],
     },
     {
       id: 3,
-      title: "Technical Analysis",
+      title: "ETFs",
       modules: [
         {
           id: 1,
-          title: "Introduction to Technical Analysis",
-          duration: "4 mins",
+          title: "Introduction to ETFs",
+          duration: "3 min",
           type: "content",
         },
         {
           id: "1q",
-          title: "Technical Analysis Quiz",
+          title: "Introduction to ETFs",
           type: "quiz",
           quizType: "mixed",
           relatedModuleId: 1,
         },
         {
           id: 2,
-          title: "Chart Patterns and What They Signify",
-          duration: "5 mins",
+          title: "Advantages and Disadvantages of ETFs",
+          duration: "5 min",
           type: "content",
         },
         {
           id: "2q",
-          title: "Chart Patterns Quiz",
+          title: "Advantages and Disadvantages of ETFs",
           type: "quiz",
           quizType: "mixed",
           relatedModuleId: 2,
         },
         {
           id: 3,
-          title: "Technical Indicators",
-          duration: "5 mins",
+          title: "Types of ETFs",
+          duration: "8 min",
           type: "content",
         },
         {
           id: "3q",
-          title: "Technical Indicators Quiz",
+          title: "Types of ETFs",
           type: "quiz",
           quizType: "mixed",
           relatedModuleId: 3,
+        },
+        {
+          id: 4,
+          title: "How to Buy an ETF",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "4q",
+          title: "How to Buy an ETF",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 4,
+        },
+        {
+          id: 5,
+          title: "How to Pick an ETF: Define Your Investment Goals and Time Horizon",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "5q",
+          title: "How to Pick an ETF: Define Your Investment Goals and Time Horizon",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 5,
+        },
+        {
+          id: 6,
+          title: "How to Pick an ETF: Assess Risk Tolerance",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "6q",
+          title: "How to Pick an ETF: Assess Risk Tolerance",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 6,
+        },
+        {
+          id: 7,
+          title: "How to Pick an ETF: Analyze the ETF's Holdings",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "7q",
+          title: "How to Pick an ETF: Analyze the ETF's Holdings",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 7,
+        },
+        {
+          id: 8,
+          title: "How to Pick an ETF: Check the ETF's Expense Ratio",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "8q",
+          title: "How to Pick an ETF: Check the ETF's Expense Ratio",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 8,
+        },
+        {
+          id: 9,
+          title: "How to Pick an ETF: Evaluate Historical Performance",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "9q",
+          title: "How to Pick an ETF: Evaluate Historical Performance",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 9,
+        },
+        {
+          id: 10,
+          title: "How to Pick an ETF: Liquidity and Trading Volume",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "10q",
+          title: "How to Pick an ETF: Liquidity and Trading Volume",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 10,
+        },
+        {
+          id: 11,
+          title: "How to Pick an ETF: Diversification and Correlation with Other Investments",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "11q",
+          title: "How to Pick an ETF: Diversification and Correlation with Other Investments",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 11,
+        },
+        {
+          id: 12,
+          title: "Putting it All Together",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "12q",
+          title: "Putting it All Together",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 12,
+        },
+        {
+          id: 13,
+          title: "Tracking Your ETF",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "13q",
+          title: "Tracking Your ETF",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 13,
+        },
+        {
+          id: 14,
+          title: "Recap: Test Your Skills",
+          duration: "8 min",
+          type: "content",
+        },
+        {
+          id: "12q",
+          title: "Recap: Test Your Skills",
+          type: "quiz",
+          quizType: "mixed",
+          relatedModuleId: 14,
         },
       ],
     },
