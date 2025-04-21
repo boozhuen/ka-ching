@@ -2234,13 +2234,13 @@ const CourseContent = () => {
       : [moduleContent[currentStep - 1][currentModule - 1]] || [],
 } */ //made module data appear in 2.1 but 1.2 was appearing in 2.1
 
-/*const currentModuleData = {
+const currentModuleData = {
   ...currentStepData.modules[0],
   contentSections:
     moduleContent[currentStep - 1]?.[currentModule - 1] || [],
-}*/ //updated
+} //updated
 
-const currentModuleData = moduleContent[currentStep - 1]?.[currentModule - 1] || {};
+
 
 
 console.log("=== Current Step and Module ===")
