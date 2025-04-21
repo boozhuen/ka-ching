@@ -1515,8 +1515,24 @@ const CourseContent = () => {
 
             <p style={{ marginBottom: "1rem" }}>
               Recall that the income statement is a record that reveals how a company turns its sales into profits. 
-              It's like shopping at a thrift store where the items they sell ( <strong>revenue</strong> ) are transformed into <strong>net income</strong> (<em>could be proft or loss</em>) after subtracting the cost of buying those items (<strong>expenses</strong>).
+              <br/>It's like shopping at a thrift store where the items they sell (<strong>revenue</strong>) are transformed into <strong>net income</strong> (<em>could be proft or loss</em>) after subtracting the cost of buying those items (<strong>expenses</strong>).
             </p>
+            
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-5-1.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+
           </div>
         ),
       },
@@ -1533,10 +1549,10 @@ const CourseContent = () => {
             <p style={{ marginBottom: "1rem" }}>
               <strong>Revenue:</strong> Total earnings from selling items (before subtracting expenses)
             </p>
-
+            
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-1.png"
+                src="/Module-2-5-2.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1567,7 +1583,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-2.png"
+                src="/Module-2-5-3.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1596,7 +1612,7 @@ const CourseContent = () => {
               <strong>Cost of goods sold (COGS):</strong> The total costs associated with component parts of whatever product or service a company makes and sells.
               <br/>
               <br/>In other words, COGS equates to how much it costs to acquire those items.
-              <br/>For example, if the store buys vintage jackets at $5 each, that $5 is the COGS.
+              <br/><em>For example, if the store buys vintage jackets at $5 each, that $5 is the COGS.</em>
             </p>
 
             <div style={{ marginTop: "2rem"}}>
@@ -1627,20 +1643,20 @@ const CourseContent = () => {
             </h3>
 
             <p style={{ marginBottom: "1rem" }}>
-              <strong>Gross Profit:</strong> Revenue minus costs of goods sold. 
-              <br/>It is obtained by <strong>subtracting</strong> {" "} 
+              <strong>Gross Profit:</strong> Revenue minus costs of goods sold ( 
               <span className="text-blue-600 tooltip-wrapper">
                 <strong>COGS</strong>
                   <div className="tooltip-box">
                     <p className="tooltip-text font-medium mb-1">
                     How much it costs to acquire item to be sold.
-                    <br/>🧥For example, if the store buys vintage jackets at $5 each, COGS = $5.
+                    <br/>🧥For example, 
+                    <br/>If the store buys vintage jackets at $5 each, COGS = $5.
                     </p>
                   </div>
               </span>
-              <strong>from revenue.</strong>
+              ).
               <br/>
-              <br/><em>If the store earned $100 selling jackets and spent $40 on them, the gross profit would be $60.</em>
+              <br/><em>For example, if the store earned $100 selling jackets and spent $40 on them, the gross profit would be $60.</em>
             </p>
 
             <div style={{ marginTop: "2rem"}}>
@@ -1671,13 +1687,13 @@ const CourseContent = () => {
             </h3>
 
             <p style={{ marginBottom: "1rem" }}>
-              <strong>Operating Income:</strong> 
+              <strong>Operating Income:</strong> {" "}
               <span className="text-blue-600 tooltip-wrapper">
                 Gross profit
                   <div className="tooltip-box">
                     <p className="tooltip-text font-medium mb-1">
-                    Revenue minus costs of goods sold.
-                    <br/> It is obtained by <strong>subtracting COGS from revenue</strong>.
+                    Revenue minus costs of goods sold (COGS). 
+                    <br/> COGS refers to how much it costs to acquire the item to be sold.
                     </p>
                   </div>
               </span>
@@ -1693,22 +1709,23 @@ const CourseContent = () => {
               .
               <br/> For example, if the store's{" "}
               <span className="text-blue-600 tooltip-wrapper">
-                <strong>Gross profit</strong>
+                gross profit
                   <div className="tooltip-box">
                     <p className="tooltip-text font-medium mb-1">
-                    Revenue minus costs of goods sold.
-                    <br/> It is obtained by <strong>subtracting COGS from revenue</strong>.
+                    Revenue minus costs of goods sold (COGS). 
+                    <br/> COGS refers to how much it costs to acquire the item to be sold.
                     </p>
                   </div>
               </span>
-              {" "}is $60 but it spent $20 on rent and wages, the operating income is 
+              {" "}is $60 but it spent $20 on rent and wages, the operating income is {" "}
               <span className="text-blue-600 tooltip-wrapper">
                 $40
                   <div className="tooltip-box">
                     <p className="tooltip-text font-medium mb-1">
-                    Operating Income = Gross Profit - Operating Expenses
-                    <br/>{"             "}= $60 - $20
-                    <br/>{"             "}= $40
+                    Operating Income 
+                    <br/>= Gross Profit - Operating Expenses
+                    <br/>= $60 - $20
+                    <br/>= $40
                     </p>
                   </div>
               </span>
@@ -1742,13 +1759,13 @@ const CourseContent = () => {
             </h3>
 
             <p style={{ marginBottom: "1rem" }}>
-              <strong>Income before taxes:</strong> 
+              <strong>Income before taxes:</strong> {" "}
               <span className="text-blue-600 tooltip-wrapper">
                 <strong>Operating income</strong>
                   <div className="tooltip-box">
                     <p className="tooltip-text font-medium mb-1">
-                    Revenue minus costs of goods sold.
-                    <br/> It is obtained by <strong>subtracting COGS from revenue</strong>.
+                    Revenue minus costs of goods sold (COGS). 
+                    <br/> COGS refers to how much it costs to acquire the item to be sold.
                     </p>
                   </div>
               </span>
