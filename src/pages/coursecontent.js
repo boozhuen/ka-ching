@@ -1177,170 +1177,161 @@ const CourseContent = () => {
 
       //SECTION 2 MODULE 3
     [
-      [
-        {
-          title: "Understanding Financial Statements",
-          type: "content",
-          content: (
-            <div>
-              <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-                🗂️ Understanding Financial Statements: A Company's Financial Story
-              </h3>
+      {
+        title: "Understanding Financial Statements",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              🗂️ Understanding Financial Statements: A Company's Financial Story
+            </h3>
 
-              <p style={{ marginBottom: "1rem" }}>
-                Think of <strong>financial statements</strong> like a detailed diary that tells the complete financial story of a company.
-                Just as a diary reveals personal experiences, financial statements reveal a company's <em>financial health</em>, <em>performance</em> and <em>portential</em>.
-              </p>
+            <p style={{ marginBottom: "1rem" }}>
+              Think of <strong>financial statements</strong> like a detailed diary that tells the complete financial story of a company.
+              Just as a diary reveals personal experiences, financial statements reveal a company's <em>financial health</em>, <em>performance</em> and <em>portential</em>.
+            </p>
 
-              <div style={{ marginTop: "2rem"}}>
-                <img
-                  src="/Module-2-3-1.png"
-                  style={{
-                    maxWidth: "500px",
-                    height: "auto",
-                    borderRadius: "8px",
-                    boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-                    display: "block",
-                    marginTop: "2rem",
-                    marginLeft: 0
-                  }}
-                />
-              </div>
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3-1.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
             </div>
-          ),
-        },
-      ],
-      
-      [
-        {
-          title: "Understanding Financial Statements",
-          type: "content",
-          content: (
-            <div>
-              <h3 style={{fontSize: "1.2rem", fontWeight: "bold", marginBottom:"1rem"}}>
-                📑 What are Financial Statements?
-              </h3>
+          </div>
+        ),
+      },
 
-              <p style={{marginBottom: "1rem"}}>
-                  Financial statements are like a company's report card. They provide a snapshot of a company's financial performance, helping investors understand how well the business is doing.
-                  There are three core financial statements that work together to paint a complete picture:
-                  <ol>
-                    <li>
-                      <span className="text-blue-600 tooltip-wrapper">
-                        <strong>Income Statement</strong>
-                        <div className="tooltip-box">
-                          <p className="tooltip-text font-medium mb-1">
-                            It shows how much the company made (revenue) and how much they spent (expenses), telling you if they're winning or losing money over a period of time.
-                          </p>
-                        </div>
-                      </span>
-                      : The Profit Story
-                    </li>
+      {
+        title: "Understanding Financial Statements",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{fontSize: "1.2rem", fontWeight: "bold", marginBottom:"1rem"}}>
+              📑 What are Financial Statements?
+            </h3>
 
-                    <li>
-                      <span className="text-blue-600 tooltip-wrapper">
-                        <strong>Balance Sheet</strong>
-                        <div className="tooltip-box">
-                          <p className="tooltip-text font-medium mb-1">
-                            It shows what the company owns (assets), what they owe (liabilities), and what is left over for the owners (equity). It's the company's financial health in one page.
-                          </p>
-                        </div>
-                      </span>
-                      : The Financial Snapshot
-                    </li>
-
-                    <li>
-                      <span className="text-blue-600 tooltip-wrapper">
-                        <strong>Cash Flow Statement</strong>
-                        <div className="tooltip-box">
-                          <p className="tooltip-text font-medium mb-1">
-                            It shows how cash enters (from sales) and how it leaves (for bills, investments, etc.). It tells you if the company is staying liquid or running out of cash.
-                          </p>
-                        </div>
-                      </span>
-                      : The Money Movement Tracker
-                    </li>
-                  </ol>
-              </p>
-            </div>
-          ),
-        },
-      ],
-
-      [
-        {
-          title: "Income Statements",
-          type: "content",
-          content: (
-            <div>
-              <h3 style={{fontSize: "1.2rem", fontWeight: "bold", marginBottom:"1rem"}}>
-                📑 Income Statements
-              </h3>
-              <p style={{ marginBottom: "1rem" }}>
-              The income statement is like the <strong>receipt</strong> from your thrift store shopping spree. It lists how much the store made (revenue) and what it spent to get the items (expenses). 
-              Subtracting expenses from revenue, gives the store's profit —  the final amount the shop earned.
-              </p>
-
-              <p>
-                The income statement shows:
-                <ul>
+            <p style={{marginBottom: "1rem"}}>
+                Financial statements are like a company's report card. They provide a snapshot of a company's financial performance, helping investors understand how well the business is doing.
+                There are three core financial statements that work together to paint a complete picture:
+                <ol>
                   <li>
-                    <strong>Total Revenue</strong>: How much the company earned
+                    <span className="text-blue-600 tooltip-wrapper">
+                      <strong>Income Statement</strong>
+                      <div className="tooltip-box">
+                        <p className="tooltip-text font-medium mb-1">
+                          It shows how much the company made (revenue) and how much they spent (expenses), telling you if they're winning or losing money over a period of time.
+                        </p>
+                      </div>
+                    </span>
+                    : The Profit Story
                   </li>
+
                   <li>
-                    <strong>Expenses</strong>: What the company spent
+                    <span className="text-blue-600 tooltip-wrapper">
+                      <strong>Balance Sheet</strong>
+                      <div className="tooltip-box">
+                        <p className="tooltip-text font-medium mb-1">
+                          It shows what the company owns (assets), what they owe (liabilities), and what is left over for the owners (equity). It's the company's financial health in one page.
+                        </p>
+                      </div>
+                    </span>
+                    : The Financial Snapshot
                   </li>
+
                   <li>
-                    <strong>Net Income</strong>: Profit or less
+                    <span className="text-blue-600 tooltip-wrapper">
+                      <strong>Cash Flow Statement</strong>
+                      <div className="tooltip-box">
+                        <p className="tooltip-text font-medium mb-1">
+                          It shows how cash enters (from sales) and how it leaves (for bills, investments, etc.). It tells you if the company is staying liquid or running out of cash.
+                        </p>
+                      </div>
+                    </span>
+                    : The Money Movement Tracker
                   </li>
-                </ul>
-              </p>
+                </ol>
+            </p>
+          </div>
+        ),
+      },
+    
+      {
+        title: "Income Statements",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{fontSize: "1.2rem", fontWeight: "bold", marginBottom:"1rem"}}>
+              📑 Income Statements
+            </h3>
+            <p style={{ marginBottom: "1rem" }}>
+            The income statement is like the <strong>receipt</strong> from your thrift store shopping spree. It lists how much the store made (revenue) and what it spent to get the items (expenses). 
+            Subtracting expenses from revenue, gives the store's profit —  the final amount the shop earned.
+            </p>
+
+            <p>
+              The income statement shows:
+              <ul>
+                <li>
+                  <strong>Total Revenue</strong>: How much the company earned
+                </li>
+                <li>
+                  <strong>Expenses</strong>: What the company spent
+                </li>
+                <li>
+                  <strong>Net Income</strong>: Profit or less
+                </li>
+              </ul>
+            </p>
+          </div>
+        ),
+      },
+    
+      {
+        title: "Income Statements",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{fontSize: "1.2rem", fontWeight: "bold", marginBottom:"1rem"}}>
+              📑 Income Statements
+            </h3>
+            <p>
+            For example, if the thrift store <strong>earns $100</strong> from selling clothes but <strong>spent $60</strong> buying them, the store has <strong>$40 left</strong> over, which is the <strong>gross profit</strong>. 
+            That is the shop's profit after its cost of acquiring new items. 
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3-2.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
             </div>
-          ),
-        },
-      ],
 
-      [
-        {
-          title: "Income Statements",
-          type: "content",
-          content: (
-            <div>
-              <h3 style={{fontSize: "1.2rem", fontWeight: "bold", marginBottom:"1rem"}}>
-                📑 Income Statements
-              </h3>
-              <p>
-              For example, if the thrift store <strong>earns $100</strong> from selling clothes but <strong>spent $60</strong> buying them, the store has <strong>$40 left</strong> over, which is the <strong>gross profit</strong>. 
-              That is the shop's profit after its cost of acquiring new items. 
-              </p>
+            <p>
+              <em>Note</em>: In the income statement, values  with brackets around them indicate that they are negative values. 
+              <br>
+              As such, the '($60)' shown here indicates '-$60'.
+              </br>
+            </p>
 
-              <div style={{ marginTop: "2rem"}}>
-                <img
-                  src="/Module-2-3-2.png"
-                  style={{
-                    maxWidth: "500px",
-                    height: "auto",
-                    borderRadius: "8px",
-                    boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-                    display: "block",
-                    marginTop: "2rem",
-                    marginLeft: 0
-                  }}
-                />
-              </div>
-
-              <p>
-                <em>Note</em>: In the income statement, values  with brackets around them indicate that they are negative values. 
-                <br>
-                As such, the '($60)' shown here indicates '-$60'.
-                </br>
-              </p>
-
-            </div>
-          ),
-        },
-      ],
-
+          </div>
+        ),
+      },
     ],
 
     //Section 2 Module 4
