@@ -2382,7 +2382,7 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 1: Open and Fund a Brokerage Account
+              🔓Step 1: Open and Fund a Brokerage Account
             </h3>
 
             <p>
@@ -2418,7 +2418,7 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 2: Buying a Stock (You Think Price Will Go Up)
+              ☝🏻 Step 2: Buying a Stock (You Think Price Will Go Up)
             </h3>
 
             <p>
@@ -2464,7 +2464,7 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 3: Shorting a Stock (You Think Price Will Go Down)
+              👇🏻 Step 3: Shorting a Stock (You Think Price Will Go Down)
             </h3>
 
             <p>
@@ -2510,7 +2510,7 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Order Types Explained
+              🤓 Order Types Explained
             </h3>
 
             <p>
@@ -2545,11 +2545,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 1: Add to Your Watchlist
+              📲 Step 1: Add to Your Watchlist
             </h3>
 
             <p>
-              📲 Use your app’s watchlist to easily track prices and updates—even after buying.
+              Use your app’s watchlist to easily track prices and updates—even after buying.
               <br/>
               <br/>
               <span className="text-blue-600 tooltip-wrapper">
@@ -2572,11 +2572,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 2: Set Up Price Alerts
+              🔔 Step 2: Set Up Price Alerts
             </h3>
 
             <p>
-              🔔 Avoid checking constantly. Set alerts to notify you when the stock hits certain prices or moves sharply.
+              Avoid checking constantly. Set alerts to notify you when the stock hits certain prices or moves sharply.
               <br/>
               <br/>
               <span className="text-blue-600 tooltip-wrapper">
@@ -2598,11 +2598,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 3: Follow Key Signals
+              📊 Step 3: Follow Key Signals
             </h3>
 
             <p>
-              📊 Once you have {" "}
+              Once you have {" "}
               <span className="text-blue-600 tooltip-wrapper">
                 opened a position
                   <div className="tooltip-box">
@@ -2636,11 +2636,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 4: Stay Informed, Not Obsessed
+              👩🏻‍🎓 Step 4: Stay Informed, Not Obsessed
             </h3>
 
             <p>
-              👩🏻‍🎓 Revisit your stock’s fundamentals every few months—especially if something big changes in the company or industry.
+              Revisit your stock’s fundamentals every few months—especially if something big changes in the company or industry.
               <span className="text-blue-600 tooltip-wrapper">
                 🦉Investing is a journey, not a minute-by-minute sprint.
                   <div className="tooltip-box">
@@ -2664,11 +2664,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 1: Know Your “Why”
+              🤔 Step 1: Know Your “Why”
             </h3>
 
             <p>
-              🤔 Clarify your goal before buying—long-term growth, short-term profit, or a specific event?
+               Clarify your goal before buying—long-term growth, short-term profit, or a specific event?
               <br/><em>Throwback to Module 1.1.</em>
               <br/>
               <span className="text-blue-600 tooltip-wrapper">
@@ -2693,11 +2693,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 2: Use Exit Rules
+              🚪 Step 2: Use Exit Rules
             </h3>
 
             <p>
-              🚪 Decide these in advance to avoid emotional decisions:
+               Decide these in advance to avoid emotional decisions:
               <br/>
               <ul>
                 <li>
@@ -2727,11 +2727,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 3: Watch for Sell Signals
+              🚦 Step 3: Watch for Sell Signals
             </h3>
 
             <p>
-              🚦Reasons to consider closing your position:
+              Reasons to consider closing your position:
               <br/>
               <ul>
                 <li>
@@ -2764,11 +2764,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              Step 4: Rebalance If Needed
+              🤹🏻‍♂️ Step 4: Rebalance If Needed
             </h3>
 
             <p>
-              🤹🏻‍♂️ If <strong>one stock becomes too large</strong> in your portfolio or you <strong>want to fund another opportunity</strong>, it may be time to sell.
+               If <strong>one stock becomes too large</strong> in your portfolio or you <strong>want to fund another opportunity</strong>, it may be time to sell.
 
               <br/>
               
@@ -2791,11 +2791,11 @@ const CourseContent = () => {
         content: (
           <div>
             <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
-              BONUS: Taking a Loss
+              🥲 BONUS: Taking a Loss
             </h3>
 
             <p>
-              🥲 Losses happen. The key is learning:
+              Losses happen. The key is learning:
 
               <ul>
                 <li>
