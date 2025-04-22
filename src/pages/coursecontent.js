@@ -2748,6 +2748,7 @@ const CourseContent = () => {
             "While quantitative analysis of financial data is a crucial part of fundamental analysis, relying solely on this ignores the qualitative factors like management effectiveness and industry conditions, which are equally important.",
             "Qualitative analysis helps in understanding the company's strategic positioning, but without financial metrics like earnings and debt, the analysis is incomplete.",
             "Technical analysis is a separate discipline that focuses on price trends and trading volumes, not business fundamentals.",
+            "Technical analysis is not part of fundamental analysis. Fundamental analysis only involves quantitative and qualitative evaluation of a company's value."
           ],
         },
       },
