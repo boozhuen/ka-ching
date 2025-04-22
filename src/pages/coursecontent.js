@@ -2724,12 +2724,22 @@ const CourseContent = () => {
         options: ["Quantitative Analysis", "Qualitative Analysis", "Quantitative and Qualitative Analysis", "Technical Analysis", "All of the Above"],
         correctAnswer: [2],
         hint: (
-          <span
+          <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Hint</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Think of fundamental analysis like evaluating a hidden gem at a thrift store.
+                    <br/>Fundamental analysis is like inspecting items at a thrift shop to decide their true worth.
+                    <br/>For stocks, it means scrutinizing a company's financial health, management quality, and market position to see if the stock price really reflects its value.
+                    </p>
+                  </div>
+          </span>
+          /*<span
             title="Fundamental analysis is like inspecting items at a thrift shop to decide their true worth. For stocks, it means scrutinizing a company's financial health, management quality, and market position to see if the stock price really reflects its value."
             style={{ textDecoration: "underline dotted", cursor: "help" }}
           >
             💡 Hint: Think of fundamental analysis like evaluating a hidden gem at a thrift store.
-          </span>
+          </span>*/
         ),
         feedback: {
           correct:
@@ -3547,13 +3557,22 @@ console.log(currentModuleData)
                                     <div className="mt-2 text-sm">
                                       <p
                                         className={`${
-                                          isCorrect ? "text-green-700" : isSelected ? "text-red-700" : "text-gray-600"
+                                          isCorrect
+                                            ? "text-green-700"
+                                            : isSelected
+                                              ? "text-red-700"
+                                              : "text-gray-600"
                                         }`}
                                       >
-                                        {currentQuiz[currentQuestionIndex].feedback[index]}
+                                        {isCorrect
+                                          ? currentQuiz[currentQuestionIndex].feedback.correct
+                                          : Array.isArray(currentQuiz[currentQuestionIndex].feedback.incorrect)
+                                            ? currentQuiz[currentQuestionIndex].feedback.incorrect[index]
+                                            : currentQuiz[currentQuestionIndex].feedback.incorrect}
                                       </p>
                                     </div>
-                                  )}
+                                    )}
+
                                 </button>
                               </div>
                             )
