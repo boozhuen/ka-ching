@@ -2125,6 +2125,701 @@ const CourseContent = () => {
       },
       
     ],
+
+    //Section 2 Module 7
+    [
+      {
+        title: "Balance Sheet",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 8
+    [
+      {
+        title: "Cash Flow Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 9
+    [
+      {
+        title: "Key Financial Ratios: Liquidity Ratios",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 10
+    [
+      {
+        title: "Key Financial Ratios: Leverage Ratios",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 11
+    [
+      {
+        title: "Key Financial Ratios: Efficiency Ratios",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 12
+    [
+      {
+        title: "Key Financial Ratios: Profitability Ratios",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 13
+    [
+      {
+        title: "Key Financial Ratios: Market Value Ratios",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 14
+    [
+      {
+        title: "Putting it All Together",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              👷🏻Coming Soon!
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      
+    ],
+
+    //Section 2 Module 15
+    [
+      {
+        title: "How to Buy/Short a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 1: Open and Fund a Brokerage Account
+            </h3>
+
+            <p>
+              Before trading, you need a brokerage account.
+              <ul>
+                <li>
+                  Pick a platform (e.g. SaxoTraderGo).
+                </li>
+                <li>
+                  Fund your account via PayNow/FAST.
+                </li>
+              </ul>
+              <br/>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Tip!</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Some platforms charge deposit fees or have delays.
+                    <br/>🕵🏻Always check for hidden fees.
+                    </p>
+                  </div>
+              </span>
+            </p>
+      
+          </div>
+        ),
+      },
+
+      {
+        title: "How to Buy/Short a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 2: Buying a Stock (You Think Price Will Go Up)
+            </h3>
+
+            <p>
+              You feel that the company's stock is currently undervalued and its price will likely rise later.
+              <br/><strong><em>Example:</em></strong> Buy 10 shares at $100. When the price per share rises to $120, the total value of your shares would be $1,200. You would have profited a total of $200 (not accounting for commission fees).
+              <br/>
+              <br/><strong>How to Buy:</strong>
+              <ol>
+                <li>
+                  Search the stock (e.g. AAPL).
+                </li>
+                <li>
+                  Choose order type: Market or Limit.
+                </li>
+                <li>
+                  Enter number of shares.
+                </li>
+                <li>
+                  Buy.
+                </li>
+              </ol>
+              <br/>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Tip!</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Some platforms charge deposit fees or have delays.
+                    <br/>🕵🏻Always check for hidden fees.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+            
+          </div>
+        ),
+      },
+
+      {
+        title: "How to Buy/Short a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 3: Shorting a Stock (You Think Price Will Go Down)
+            </h3>
+
+            <p>
+              You’re trying to <strong>profit from a falling stock price</strong>. Usually, you short a stock when you believe the company is <strong>overvalued</strong> or <strong>facing trouble</strong>.
+              <br/><strong><em>Example:</em></strong> Short 10 shares at $100. When the price per share drops to $80, you would have profited a total of $200 (not accounting for commission fees).
+              <br/>
+              <br/><strong>How to Short:</strong>
+              <ol>
+                <li>
+                  Borrow stock via your broker.
+                </li>
+                <li>
+                  Sell it at current price (<em>e.g. 100 dollars</em>)
+                </li>
+                <li>
+                  Wait for the price to drop. (<em>e.g. 80 dollars</em>)
+                </li>
+                <li>
+                  Buy back lower & return.
+                </li>
+              </ol>
+              <br/>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Tip!</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Stock can rise forever, so losses from shorting can be unlimited.
+                    <br/>⚠️Risky: Only short if you understand the downside.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+            
+          </div>
+        ),
+      },
+
+      {
+        title: "How to Buy/Short a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Order Types Explained
+            </h3>
+
+            <p>
+              <strong>Market Order:</strong>
+              <br/>Instant execution at current price.
+              <br/>
+              <br/><strong>Limit Order:</strong>
+              <br/>Set your preferred price. Executes only when reached.
+              <br/>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>🎯 Limit orders = more control, less rush.</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                      Use a limit order if you want to control the price you're paying
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+
+    ],
+
+    //Section 2 Module 16
+    [
+      {
+        title: "How to Monitor a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 1: Add to Your Watchlist
+            </h3>
+
+            <p>
+              📲 Use your app’s watchlist to easily track prices and updates—even after buying.
+              <br/>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>🏃🏻‍♀️‍➡️Quick access = less stress</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Most trading apps let you 'star' or 'watch' stocks for easier tracking.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+
+      {
+        title: "How to Monitor a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 2: Set Up Price Alerts
+            </h3>
+
+            <p>
+              🔔 Avoid checking constantly. Set alerts to notify you when the stock hits certain prices or moves sharply.
+              <br/>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>👀Let your phone do the watching.</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                      Set alerts to buy more, take profit, or cut losses.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+      {
+        title: "How to Monitor a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 3: Follow Key Signals
+            </h3>
+
+            <p>
+              📊 Once you have {" "}
+              <span className="text-blue-600 tooltip-wrapper">
+                opened a position
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                      This means to have invested in a stock.
+                    </p>
+                  </div>
+              </span>
+              , keep an eye on:
+              <ul>
+                <li>
+                  <strong>Volume:</strong> Sudden spikes = rising interest.
+                </li>
+                <li>
+                  <strong>Moving Averages:</strong> Tracks price trends.
+                </li>
+                <li>
+                  <strong>Company News:</strong> Earnings, announcements, leadership changes.
+                </li>
+              </ul>
+              <br/>
+              <br/> <em>Example:</em> Positive earnings can cause a price jump; bad news might trigger a drop.
+            </p>
+
+          </div>
+        ),
+      },
+      {
+        title: "How to Monitor a Stock",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 4: Stay Informed, Not Obsessed
+            </h3>
+
+            <p>
+              👩🏻‍🎓 Revisit your stock’s fundamentals every few months—especially if something big changes in the company or industry.
+              <span className="text-blue-600 tooltip-wrapper">
+                🦉Investing is a journey, not a minute-by-minute sprint.
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                      Re-evaluate your investment if the company changes direction or faces new risks.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+    ],
+
+    //Section 2 Module 17
+    [
+      {
+        title: "How to Decide When to Close a Position",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 1: Know Your “Why”
+            </h3>
+
+            <p>
+              🤔 Clarify your goal before buying—long-term growth, short-term profit, or a specific event?
+              <br/><em>Throwback to Module 1.1.</em>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>🥅No goal = no exit plan.</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Your original reason helps you decide when to exit.
+                    <br/>🩳 A short-term goal means you should take on less risk.
+                    <br/>👖 A long-term goal lets you take on more risk.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+
+      {
+        title: "How to Decide When to Close a Position",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 2: Use Exit Rules
+            </h3>
+
+            <p>
+              🚪 Decide these in advance to avoid emotional decisions:
+              <br/>
+              <ul>
+                <li>
+                  <strong>Take-Profit Target</strong> e.g. "sell after 20% gain"
+                </li>
+                <li>
+                  <strong>Stop-Loss Limit</strong> e.g. "Sell if price drops 10%"
+                </li>
+              </ul>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>🕊️Rules help protect your gains and your peace of mind.</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Automate these if your platform allows it.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+
+      {
+        title: "How to Decide When to Close a Position",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 3: Watch for Sell Signals
+            </h3>
+
+            <p>
+              🚦Reasons to consider closing your position:
+              <br/>
+              <ul>
+                <li>
+                  Bad earnings or news
+                </li>
+                <li>
+                  Industry-wide shifts
+                </li>
+                <li>
+                  You no longer believe in your original decision that the stock is overvalued/undervalued.
+                </li>
+              </ul>
+              <br/>
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>👨🏻‍🔬Trust your research, not your emotions.</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                      Sticking to a stock out of hope is not a strategy.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+      {
+        title: "How to Decide When to Close a Position",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              Step 4: Rebalance If Needed
+            </h3>
+
+            <p>
+              🤹🏻‍♂️ If <strong>one stock becomes too large</strong> in your portfolio or you <strong>want to fund another opportunity</strong>, it may be time to sell.
+
+              <br/>
+              
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>👨🏻‍🔬Trust your research, not your emotions.</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                      Sticking to a stock out of hope is not a strategy.
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+      {
+        title: "How to Decide When to Close a Position",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              BONUS: Taking a Loss
+            </h3>
+
+            <p>
+              🥲 Losses happen. The key is learning:
+
+              <ul>
+                <li>
+                  🧙🏻‍♀️Was it bad luck or a flawed decision?
+                </li>
+                <li>
+                  💭What will you do differently next time?
+                </li>
+              </ul>
+              
+              <span className="text-blue-600 tooltip-wrapper">
+                <em>🪬Small losses protect you from the bigger ones.</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                      Avoid holding on "just to break even".
+                    </p>
+                  </div>
+              </span>
+            </p>
+
+          </div>
+        ),
+      },
+    ]
     //Add more sections as needed
   ],
 ]
@@ -2990,11 +3685,461 @@ const CourseContent = () => {
           correct:
           "It’s like inspecting thrift items before buying them: numbers tell a deeper story.",
           incorrect: [
-            "The idea is there but let's go for the bigger picture!",
+            "Cute but not really. The idea is there but let's go for the bigger picture!",
             "A company's popularity is not necessarily a deciding factor in the long-run.",
             null,
             "This is more like inventory planning, not financial analysis.",
           ],
+        },
+      },
+    ],
+
+    "2.5.mixed": [
+      {
+        question: "What does COGS (Cost of Goods Sold) represent?",
+        options: ["How much the business spends on rent and wages","The cost to make or buy the items being sold", "The income after taxes", "The money spent on marketing"],
+        correctAnswer: 1,
+        feedback: {
+          correct:
+          "Correct! It’s like how much you paid to thrift those jackets before reselling.",
+          incorrect: [
+            "This is an operating expense.",
+            null,
+            "This describes net income.",
+            "This is part of marketing/operating expenses.",
+          ],
+        },
+      },
+
+      {
+        question: "What is gross profit?",
+        options: ["Revenue - COGS", "Revenue - operating expenses", "Net income","Income before taxes"],
+        correctAnswer: 0,
+        
+        feedback: {
+          correct:
+            "Correct! It's how much you made from sales minus what you paid for those items.",
+          incorrect: [
+            null,
+            "This gives you operating income.",
+            "This is income after all expenses including interest and taxes have been deducted.",
+            "This is income after all expenses excluding taxes have been deducted.",
+          ],
+        },
+      },
+
+      {
+        question: "If your thrift store earned $100 in revenue, spent $40 on jackets, and $20 on rent, what is the operating income?",
+        options: ["$100", "$60", "$40","$20"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "Correct! Revenue ($100) – COGS ($40) = $60 (Gross Profit), then $60 – $20 (Operating Expenses) = $40",
+          incorrect: [
+            "This is revenue with no deductions.",
+            "This is gross profit, not operating income.",
+            null,
+            "This is what’s left after subtracting $40 and $40. Wrong math.",
+          ],
+        },
+      },
+
+      {
+        question: "Which of the following best describes depreciation?",
+        options: ["Total sales the company made", "Interest paid on a loan", "The gradual loss of value of physical stuff","Net income after all expenses"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "Correct! Like how your thrifted jacket wears out and loses value over time.",
+          incorrect: [
+            "This is revenue.",
+            "This is interest expense.",
+            null,
+            "This is net income, not depreciation.",
+          ],
+        },
+      },
+
+      {
+        question: "What does EBITDA leave out?",
+        options: ["Operating income and gross profit", "Interest, depreciation, taxes, and amortization", "Revenue and COGS","Expenses and taxes"],
+        correctAnswer: 1,
+        feedback: {
+          correct:
+          "Correct! EBITDA stands for – Earnings Before Interest, Taxes, Depreciation, and Amortization. EBITDA is kind of like saying: “If we ignore the boring adult things like loan interest, taxes, and wear-and-tear, how much are we really making from our main hustle?”",
+          incorrect: [
+            "These are parts of EBITDA, not excluded.",
+            null,
+            "These are parts found at the top section of the income statement and are not excluded.",
+            "Taxes are included in EBITDA",
+          ],
+        },
+      },
+    ],
+
+    "2.6.mixed": [
+      {
+        question: "If a company made $4.4 billion in revenue and spent $2.7 billion to generate it, what is the gross profit?",
+        options: ["$1.7 billion","$2.7 billion", "$1.6 billion", "$765.2 million"],
+        correctAnswer: 0,
+        feedback: {
+          correct:
+          "Correct! Revenue – COGS = Gross Profit. Hence, $4.4B – $2.7B = $1.7B",
+          incorrect: [
+            null,
+            "This is just the expense.",
+            "Close. Check the math!",
+            "This is operating income, not gross profit.",
+          ],
+        },
+      },
+
+      {
+        question: "What do we call the profit that remains after subtracting all expenses including taxes?",
+        options: ["Operating income", "Gross profit", "Net income","Revenue"],
+        correctAnswer: 2,
+        
+        feedback: {
+          correct:
+            "Correct! It's what's left after everything is paid - including taxes.",
+          incorrect: [
+            "This is before taxes and non-operating expenses.",
+            "This is before operating expenses.",
+            null,
+            "This is is the total sales before any costs.",
+          ],
+        },
+      },
+
+      {
+        question: "Which of the following is a financial red flag?",
+        options: ["Revenue stays the same each year", "Expenses grow while revenue stays flat", "Net income increases every year","The company pays taxes"],
+        correctAnswer: 1,
+        feedback: {
+          correct:
+          "Correct! If you're spending more but not selling more, your profit shrinks. Red flag alert 🚨.",
+          incorrect: [
+            "This might not be great, but not a red flag by itself.",
+            null,
+            "This is actually a good sign!",
+            "This is normal. If you’re making money, you pay taxes.",
+          ],
+        },
+      },
+
+      {
+        question: "The company reported $483.2 million in net income. What does that tell us?",
+        options: ["The company lost money", "The company broke even", "The company made a profit","The company avoided taxes"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "Correct! Net income means they made money after all costs.",
+          incorrect: [
+            "This would be true if the number was negative.",
+            "This means zero profit/loss, which this isn’t.",
+            null,
+            "This is unlikely so as net income is calculated as income after taxes.",
+          ],
+        },
+      },
+
+      {
+        question: "Which of the following shows a company might be in financial trouble?",
+        options: ["Revenue and profit both increased", "Costs go up, sales stay the same", "Net income rises each year","The company bought new equipment"],
+        correctAnswer: 1,
+        feedback: {
+          correct:
+          "Correct! Rising costs without better sales = smaller profit = trouble brewing.",
+          incorrect: [
+            "This is a great sign!",
+            null,
+            "This is a great sign!",
+            "This could be a good investment by the company to improve its operations. It’s not a red flag by itself.",
+          ],
+        },
+      },
+    ],
+
+    "2.7.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.8.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.9.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.10.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.11.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.12.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.13.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.14.mixed": [
+      {
+        question: "Coming Soon!",
+        options: ["Ok!"],
+        correctAnswer: 0,
+      },
+    ],
+
+    "2.15.mixed": [
+      {
+        question: "Why do investors buy stocks?",
+        options: ["Because they expect the stock price to go down", "Because they want to support the company", "Because they expect the stock price to go up"],
+        correctAnswer: 2,
+        feedback:{
+          correct: 
+            "Correct! Investors buy when they believe the price will rise and they can make a profit.",
+          incorrect:[
+            "If you think the price will go down, you’d short the stock, not buy it.",
+            "While support may be a factor, investing is typically driven by financial goals.",
+            null,
+          ]
+        },
+      },
+      {
+        question: "What is the first thing you need to do before placing a trade?",
+        options: ["Watch a tutorial video", "Open and fund a brokerage account", "Decide on your take-profit target"],
+        correctAnswer: 1,
+        feedback:{
+          correct: 
+            "Correct! A brokerage account is your access point to the stock market.",
+          incorrect:[
+            "Tutorials help, but you can’t trade without an account.",
+            null,
+            "That comes later—first, you need the tools to place a trade.",
+          ],
+        },
+      },
+      {
+        question: "Which order type executes your trade immediately at the best available price?",
+        options: ["Market order", "Limit order", "Scheduled order"],
+        correctAnswer: 0,
+        feedback:{
+          correct: 
+            "Correct! A market order buys/sells instantly at the current market price.",
+          incorrect:[
+            null,
+            "A limit order only executes at your chosen price or better.",
+            "Scheduled orders are rare and not part of standard trading.",
+          ],
+        },
+      },
+      {
+        question: "What does it mean to “short” a stock?",
+        options: ["Buying a stock with a lower price", "Selling your own shares", "Borrowing shares to sell now, hoping to buy them back cheaper later"],
+        correctAnswer: 2,
+        feedback:{
+          correct: 
+            "Correct! Shorting involves borrowing and profiting from a price drop.",
+          incorrect:[
+            "Price doesn’t define the strategy—intent does.",
+            "That’s just selling, not shorting.",
+            null,
+          ],
+        },
+      },
+      {
+        question: "What’s the risk of shorting a stock?",
+        options: ["You might miss a better deal later", "Losses are unlimited if the stock rises", "It’s illegal in most countries"],
+        correctAnswer: 1,
+        feedback:{
+          correct: 
+            "Correct! If the stock price rises, you still have to buy it back—at a potentially huge loss.",
+          incorrect:[
+            "That’s true for any trade, not specific to shorting.",
+            null,
+            "Shorting is legal but regulated in many countries.",
+          ],
+        },
+      },
+
+    ],
+
+    "2.16.mixed": [
+      {
+        question: "What is the benefit of adding a stock to your watchlist?",
+        options: ["It executes trades automatically", "It helps you track price and news easily", "It guarantees you won’t lose money"],
+        correctAnswer: 1,
+        feedback:{
+          correct: 
+            "Correct! A watchlist helps you follow stocks without manually searching.",
+          incorrect:[
+            "Watchlists don’t place trades.",
+            null,
+            "No tool can guarantee profit or prevent losses.",
+          ]
+        },
+      },
+      {
+        question: "Why should you set price alerts?",
+        options: ["To get notifications when stock prices hit important levels", "To pause the stock from trading", "To increase your stock’s value"],
+        correctAnswer: 0,
+        feedback:{
+          correct: 
+            "Correct! Alerts help you react quickly to price movements.",
+          incorrect:[
+            null,
+            "You can’t pause trading in the market.",
+            "Alerts don’t affect the stock’s performance.",
+          ],
+        },
+      },
+      {
+        question: "Which of these is a key indicator to monitor after buying a stock?",
+        options: ["Moving averages", "Number of friends who bought it", "Broker logo"],
+        correctAnswer: 0,
+        feedback:{
+          correct: 
+            "Correct! Moving averages help identify price trends.",
+          incorrect:[
+            null,
+            "Popularity among friends doesn’t predict performance.",
+            "The broker’s logo has no bearing on stock tracking.",
+          ],
+        },
+      },
+      {
+        question: "When should you revisit your stock’s fundamentals?",
+        options: ["Every few months or when major news breaks", "After every 1% price change", "Only if the stock drops below your entry price"],
+        correctAnswer: 0,
+        feedback:{
+          correct: 
+            "Correct! Periodic review keeps your decisions aligned with facts.",
+          incorrect:[
+            null,
+            "Small movements aren’t always meaningful.",
+            "Fundamentals matter regardless of price direction.",
+          ],
+        },
+      },
+      {
+        question: "What does “staying informed, not obsessed” mean?",
+        options: ["Watching the stock every hour", "Ignoring the stock after buying", "Checking occasionally for major updates"],
+        correctAnswer: 2,
+        feedback:{
+          correct: 
+            "Correct! It’s about balance. Remember to stay informed without micromanaging.",
+          incorrect:[
+            "That leads to burnout, not better decisions.",
+            "You still need to monitor your investments.",
+            null,
+          ],
+        },
+      },
+    ],
+
+    "2.17.mixed": [
+      {
+        question: "Why is it important to know your reason for buying a stock?",
+        options: ["It helps you plan your exit strategy", "It increases your portfolio size", "It makes the stock go up"],
+        correctAnswer: 0,
+        feedback:{
+          correct: 
+            "Correct! A clear goal helps you decide when to sell.",
+          incorrect:[
+            null,
+            "Your reason doesn’t directly affect portfolio size.",
+            "Your intentions don’t influence stock prices.",
+          ]
+        },
+      },
+      {
+        question: "What is a stop-loss rule?",
+        options: ["A rule that helps avoid buying too much", "A pre-set point to sell if the stock drops", "A penalty for selling early"],
+        correctAnswer: 1,
+        feedback:{
+          correct: 
+            "Correct! Stop-losses limit your losses by triggering a sell at a specific price.",
+          incorrect:[
+            "That’s more about budgeting, not trading.",
+            null,
+            "There’s no penalty for selling early unless stated by a product.",
+          ],
+        },
+      },
+      {
+        question: "Which is a valid reason to sell a stock?",
+        options: ["The company posts poor financial results", "You’re bored of checking the price", "You just feel like selling it"],
+        correctAnswer: 0,
+        feedback:{
+          correct: 
+            "Correct! A bad earnings report is a valid red flag.",
+          incorrect:[
+            null,
+            "Selling out of boredom isn’t strategic.",
+            "Emotional decisions can hurt performance.",
+          ],
+        },
+      },
+      {
+        question: "Why might you sell a stock even if it hasn’t dropped?",
+        options: ["To reduce your overall portfolio size", "To rebalance your portfolio or invest elsewhere", "Because the stock feels boring"],
+        correctAnswer: 1,
+        feedback:{
+          correct: 
+            "Correct! Selling can free up cash or reduce risk if one stock dominates.",
+          incorrect:[
+            "Reducing size isn’t always the goal.",
+            null,
+            "Emotional reasons aren’t solid investing logic.",
+          ],
+        },
+      },
+      {
+        question: "How should you treat losses when they happen?",
+        options: ["Ignore them and hold until you break even", "Learn from them and improve future decisions", "Sell everything immediately"],
+        correctAnswer: 1,
+        feedback:{
+          correct: 
+            "Correct! Losses are part of investing—review and grow.",
+            incorrect:[
+              "Holding blindly can lead to deeper losses.",
+              null,
+              "Panic-selling everything rarely ends well.",
+            ],
         },
       },
     ],
