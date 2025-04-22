@@ -2781,14 +2781,14 @@ const CourseContent = () => {
         correctAnswer: 0,
         hint: (
           <span className="text-blue-600 tooltip-wrapper">
-            <em>💡 Hint</em>
-              <div className="tooltip-box">
-                <p className="tooltip-text font-medium mb-1">
-                Think of a high-quality jacket at a low thrift price.
-                <br/>🕵🏻Fundamental analysis is like inspecting items at a thrift shop to decide their true worth.
-                <br/>🤔For stocks, it means scrutinizing a company's financial health, management quality, and market position to see if the stock price really reflects its value.
-                </p>
-              </div>
+                <em>💡 Hint</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    😀Fair market value = what the item is usually worth.
+                    <br/>🤔Market price = current selling price.
+                    <br/>💭Undervalued = priced below its real worth. Overvalued = priced above its real worth.
+                    </p>
+                  </div>
           </span>
         ),
         feedback: {
@@ -2881,6 +2881,124 @@ const CourseContent = () => {
         },
       },
     ],
+
+    "2.3.mixed": [
+      {
+        question: "What do financial statements help investors understand?",
+        options: ["The company’s customer reviews", "The company’s financial health, performance, and potential", "The company's employee schedule","The color of the company’s branding"],
+        correctAnswer: 1,
+        
+        feedback: {
+          correct:
+            "Correct! This option correctly states that the stock price is higher than what the company's financial health and market position justify. When investors pay more than the fair market value, they may not get a return that matches their investment.",
+          incorrect: [
+            "These are typically found on review sites, not in income statements, balance sheets or cash flow statements.",
+            null,
+            "These are likely to be found on the company website and are irrelevant to financial statements.",
+            "This is related to branding, not finances. So, this will not be relevant in financnial statements as well.",
+          ],
+        },
+      },
+      {
+        question: "Which of the following is not one of the three core financial statements?",
+        options: ["Income Statement", "Balance Sheet", "Brand Recognition Statement","Cash Flow Statement"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "Correct! This is made up and unrelated to financial accounting.",
+          incorrect: [
+            "The income statement shows how much money the company made and spent over a period of time. It shows revenues and expenses and measures profit or loss. It even includes non-cash items like depreciation or unpaid bills. Think of it like your e-wallet transactions - execpt that even if you haven't withdrawn any money or paid for your Spotify subscription yet, it knows to deduct that from your bank balance shown.",
+            "The balance sheet shows what the company owns and owes at a specific point in time. Think of it like a photo taken of the office, showing everything the company owns (assets) and owes (liabilities), as well as how much the owners of the company have after the liabilities have been paid off (Equity = Assets - Liabilities).",
+            null,
+            "The cash flow statement shows where the company's cash came from and where it went during a period. It shows if the company can pay its bills and stay liquid. It's all about the actual cash transactions the company has. So, if you have yet to pay for your Spotify subscription, it will not be shown as deducted from your bank balance until you have actually paid for it.",
+          ],
+        },
+      },
+    ],
+
+    "2.4.mixed": [
+      {
+        question: "What does the Income Statement mainly show?",
+        options: ["How much is in the cash register","What the company owns and owes", "How much the company earned, spent, and profited", "Where the company gets its loans from"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "Correct! It’s like your thrift store receipt: shows revenue, expenses, and leftover profit.",
+          incorrect: [
+            "This more accurately describes the Cash Flow Statement.",
+            "This more accurately describes the Balance Sheet.",
+            null,
+            "This relates to financing but not the income statement.",
+          ],
+        },
+      },
+
+      {
+        question: "Which equation does the Balance Sheet follow?",
+        options: ["Assets = Revenue – Expenses", "Assets = Liabilities + Equity", "Assets = Equity – Liabilities","Equity = Revenue + Expenses"],
+        correctAnswer: 1,
+        
+        feedback: {
+          correct:
+            "Correct! What the company owns (assets) is funded by what it owes (liabilities) + what’s left (equity = company's owners' value)",
+          incorrect: [
+            "This mixes income statement terms.",
+            null,
+            "This flips the formula wrong.",
+            "This it mixes two totally different statements.",
+          ],
+        },
+      },
+
+      {
+        question: "What does the Cash Flow Statement show?",
+        options: ["What the company owns", "Only money spent on inventory", "Actual cash movement in and out","Only the money the company owes"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "Correct! It’s like tracking your thrift store's cash register every day.",
+          incorrect: [
+            "This more accurately describes the Balance Sheet.",
+            "This is too narrow. This is just a part of investing activities only.",
+            null,
+            "This is part of liabilities, not the focus here.",
+          ],
+        },
+      },
+
+      {
+        question: "In an income statement, what does ($60) mean?",
+        options: ["A really good profit", "A cash inflow", "A negative value","Revenue from a sale"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "Brackets = “This is money out.” Like, “uh oh, that’s gone.”",
+          incorrect: [
+            "It’s a loss, not a gain.",
+            "This would be shown as a positive cash inflow.",
+            null,
+            "This isn’t revenue, it’s an expense.",
+          ],
+        },
+      },
+
+      {
+        question: "Why do financial statements matter, according to the thrift shop example?",
+        options: ["They help you find good thrift deals", "They show how stylish a company is", "They help investors check the company’s health, performance, and future potential","They decide which clothes to stock"],
+        correctAnswer: 2,
+        feedback: {
+          correct:
+          "It’s like inspecting thrift items before buying them: numbers tell a deeper story.",
+          incorrect: [
+            "The idea is there but let's go for the bigger picture!",
+            "A company's popularity is not necessarily a deciding factor in the long-run.",
+            null,
+            "This is more like inventory planning, not financial analysis.",
+          ],
+        },
+      },
+    ],
+
   }
 
   // Get the current quiz based on module and quiz type
