@@ -1224,7 +1224,7 @@ const CourseContent = () => {
                 <ol>
                   <li>
                     <span className="text-blue-600 tooltip-wrapper">
-                      <strong>Income Statement</strong>
+                      💵<strong>Income Statement</strong>
                       <div className="tooltip-box">
                         <p className="tooltip-text font-medium mb-1">
                           It shows how much the company made (revenue) and how much they spent (expenses), telling you if they're winning or losing money over a period of time.
@@ -1236,10 +1236,10 @@ const CourseContent = () => {
 
                   <li>
                     <span className="text-blue-600 tooltip-wrapper">
-                      <strong>Balance Sheet</strong>
+                      📷<strong>Balance Sheet</strong>
                       <div className="tooltip-box">
                         <p className="tooltip-text font-medium mb-1">
-                          It shows what the company owns (assets), what they owe (liabilities), and what is left over for the owners (equity). It's the company's financial health in one page.
+                          It shows what the <strong>company owns</strong> (assets), what they <strong>owe</strong> (liabilities), and what is <strong>left over for the owners</strong> (equity). It's the company's financial health in one page.
                         </p>
                       </div>
                     </span>
@@ -1248,7 +1248,7 @@ const CourseContent = () => {
 
                   <li>
                     <span className="text-blue-600 tooltip-wrapper">
-                      <strong>Cash Flow Statement</strong>
+                      🏃‍➡️<strong>Cash Flow Statement</strong>
                       <div className="tooltip-box">
                         <p className="tooltip-text font-medium mb-1">
                           It shows how cash enters (from sales) and how it leaves (for bills, investments, etc.). It tells you if the company is staying liquid or running out of cash.
@@ -1267,7 +1267,7 @@ const CourseContent = () => {
     //Section 2 Module 4
     [
       {
-        title: "Income Statements",
+        title: "Introduction to Income Statements",
         type: "content",
         content: (
           <div>
@@ -1298,7 +1298,7 @@ const CourseContent = () => {
       },
     
       {
-        title: "Income Statements",
+        title: "Introduction to Income Statements",
         type: "content",
         content: (
           <div>
@@ -1336,7 +1336,7 @@ const CourseContent = () => {
       },
 
       {
-        title: "Balance Sheet",
+        title: "Introduction to the Balance Sheet",
         type: "content",
         content: (
           <div>
@@ -1399,7 +1399,7 @@ const CourseContent = () => {
       },
 
       {
-        title: "Cash Flow Statement",
+        title: "Introduction to the Cash Flow Statement",
         type: "content",
         content: (
           <div>
@@ -2721,7 +2721,7 @@ const CourseContent = () => {
     "2.1.mixed": [
       {
         question: "What does Fundamental Analysis consist of? (You may choose more than one option.)",
-        options: ["Quantitative Analysis", "Qualitative Analysis", "Technical Analysis"],
+        options: ["Quantitative Analysis", "Qualitative Analysis", "Quantitative and Qualitative Analysis", "Technical Analysis", "All of the Above"],
         correctAnswer: [0, 1],
         hint: (
           <span
