@@ -2764,10 +2764,14 @@ const CourseContent = () => {
         ],
         correctAnswer: 1,
         feedback: {
-          "The number of times a stock is mentioned on social media doesn't reflect its financial worth or business fundamentals.",
+          correct:
           "Correct! Fundamental analysis helps determine a stock's intrinsic value — what it's actually worth based on company performance.",
+          incorrect:[
+          "The number of times a stock is mentioned on social media doesn't reflect its financial worth or business fundamentals.",
+          null,
           "Short-term volatility refers to quick price fluctuations, which is typically the focus of technical analysis, not fundamental.",
           "A CEO is important, but fundamental analysis goes far beyond one person — it covers earnings, debt, and overall company outlook.",
+          ],
         },
       },
 
@@ -2788,8 +2792,12 @@ const CourseContent = () => {
           </span>
         ),
         feedback: {
+          correct:
           "Correct! If a stock is priced lower than its fair market value, it's a good deal — it's undervalued.",
+          incorrect:[
+          null,
           "Overvalued would mean that the stock costs more than it's worth. If the market price is lower than the fair value, it's actually undervalued.",
+          ],
         },
       },
 
@@ -2809,8 +2817,12 @@ const CourseContent = () => {
           </span>
         ),
         feedback: {
-          "Buying an overvalued stock means paying more than it's worth — it's risky and may lead to losses when the price corrects.",
+          correct:
           "Correct! If a stock is overvalued, shorting may be profitable if you expect its price to fall to reflect its true value.",
+          incorrect:[
+          "Buying an overvalued stock means paying more than it's worth — it's risky and may lead to losses when the price corrects.",
+          null,
+          ],
         },
       },
     ],
@@ -2832,10 +2844,14 @@ const CourseContent = () => {
           </span>
         ),
         feedback: {
+          correct:
+          "Correct! This option correctly states that the stock price is higher than what the company's financial health and market position justify. When investors pay more than the fair market value, they may not get a return that matches their investment.",
+          incorrect: [
           // Incorrect: User chooses "Undervalued"
           "Undervalued would mean that the stock is priced below its real value, which is not the case here. The term doesn't apply when the stock's price is higher than its intrinsic value, which indicates an overvaluation, not undervaluation.",
           // Correct: User chooses "Overvalued"
-          "Correct! This option correctly states that the stock price is higher than what the company's financial health and market position justify. When investors pay more than the fair market value, they may not get a return that matches their investment.",
+          null,
+          ],
         },
       },
       {
@@ -2854,10 +2870,14 @@ const CourseContent = () => {
           </span>
         ),
         feedback: {
+          correct:
           // Correct answer: Buy
           "Correct! Buying undervalued stocks is generally seen as a good investment because you're purchasing something for less than its true value.",
+          incorrect: [
+            null,
           // Incorrect answer: Short
           "Shorting a stock is betting on its price decrease, but if a stock is undervalued, it means it's priced below its true value, suggesting it will likely increase. Shorting an undervalued stock risks losses if its price corrects upward to reflect its intrinsic value. Thus, shorting is not advisable for undervalued stocks.",
+          ],
         },
       },
     ],
