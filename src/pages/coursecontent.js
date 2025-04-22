@@ -2763,22 +2763,12 @@ const CourseContent = () => {
           "The CEO's performance",
         ],
         correctAnswer: 1,
-        hint: (
-          <span className="text-blue-600 tooltip-wrapper">
-                <em>💡 Hint</em>
-                  <div className="tooltip-box">
-                    <p className="tooltip-text font-medium mb-1">
-                    Think of long-term value, not short-term hype.
-                    </p>
-                  </div>
-          </span>
-        ),
-        feedback: [
+        feedback: {
           "The number of times a stock is mentioned on social media doesn't reflect its financial worth or business fundamentals.",
           "Correct! Fundamental analysis helps determine a stock's intrinsic value — what it's actually worth based on company performance.",
           "Short-term volatility refers to quick price fluctuations, which is typically the focus of technical analysis, not fundamental.",
           "A CEO is important, but fundamental analysis goes far beyond one person — it covers earnings, debt, and overall company outlook.",
-        ],
+        },
       },
 
       {
@@ -2797,20 +2787,31 @@ const CourseContent = () => {
               </div>
           </span>
         ),
-        feedback: [
+        feedback: {
           "Correct! If a stock is priced lower than its fair market value, it's a good deal — it's undervalued.",
           "Overvalued would mean that the stock costs more than it's worth. If the market price is lower than the fair value, it's actually undervalued.",
-        ],
+        },
       },
 
       {
         question: "If a stock is overvalued, should you exercise a buy or short decision?",
         options: ["Buy", "Short"],
         correctAnswer: 1,
-        feedback: [
+        hint: (
+          <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Hint</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    💭Undervalued = priced below its real worth. Overvalued = priced above its real worth.
+                    <br/>Short = sell
+                    </p>
+                  </div>
+          </span>
+        ),
+        feedback: {
           "Buying an overvalued stock means paying more than it's worth — it's risky and may lead to losses when the price corrects.",
           "Correct! If a stock is overvalued, shorting may be profitable if you expect its price to fall to reflect its true value.",
-        ],
+        },
       },
     ],
     "2.2.mixed": [
@@ -2830,23 +2831,34 @@ const CourseContent = () => {
                   </div>
           </span>
         ),
-        feedback: [
+        feedback: {
           // Incorrect: User chooses "Undervalued"
           "Undervalued would mean that the stock is priced below its real value, which is not the case here. The term doesn't apply when the stock's price is higher than its intrinsic value, which indicates an overvaluation, not undervaluation.",
           // Correct: User chooses "Overvalued"
           "Correct! This option correctly states that the stock price is higher than what the company's financial health and market position justify. When investors pay more than the fair market value, they may not get a return that matches their investment.",
-        ],
+        },
       },
       {
         question: "If a stock is undervalued, should you exercise a buy or short decision?",
         options: ["Buy", "Short"],
         correctAnswer: 0,
-        feedback: [
+        hint: (
+          <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Hint</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    💭Undervalued = priced below its real worth. Overvalued = priced above its real worth.
+                    <br/>Short = sell
+                    </p>
+                  </div>
+          </span>
+        ),
+        feedback: {
           // Correct answer: Buy
           "Correct! Buying undervalued stocks is generally seen as a good investment because you're purchasing something for less than its true value.",
           // Incorrect answer: Short
           "Shorting a stock is betting on its price decrease, but if a stock is undervalued, it means it's priced below its true value, suggesting it will likely increase. Shorting an undervalued stock risks losses if its price corrects upward to reflect its intrinsic value. Thus, shorting is not advisable for undervalued stocks.",
-        ],
+        },
       },
     ],
   }
