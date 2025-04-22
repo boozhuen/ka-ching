@@ -2720,7 +2720,7 @@ const CourseContent = () => {
     ],
     "2.1.mixed": [
       {
-        question: "What does Fundamental Analysis consist of? (You may choose more than one option.)",
+        question: "What does Fundamental Analysis consist of?",
         options: ["Quantitative Analysis", "Qualitative Analysis", "Quantitative and Qualitative Analysis", "Technical Analysis", "All of the Above"],
         correctAnswer: [2],
         hint: (
@@ -3201,7 +3201,7 @@ console.log(currentModuleData)
 
   const stepModuleCounts = {
     1: 10, // Updated to match the actual number of modules in section 1
-    2: 3, // Updated to match the actual number of modules in section 2
+    2: 17, // Updated to match the actual number of modules in section 2
   }
 
   const goToNextModule = () => {
@@ -3483,10 +3483,18 @@ console.log(currentModuleData)
                       <div className="bg-[#f0f9f4] p-6 rounded-lg mb-8 shadow-md">
                         <div className="flex items-start mb-6">
                           <HelpCircle className="w-6 h-6 text-[#5a7d53] mr-3 mt-1 flex-shrink-0" />
-                          <h3 className="text-xl font-bold text-[#5a7d53]">
-                            {currentQuiz[currentQuestionIndex]?.question || "Loading question..."}
-                          </h3>
+                          <div>
+                            <h3 className="text-xl font-bold text-[#5a7d53]">
+                              {currentQuiz[currentQuestionIndex]?.question || "Loading question..."}
+                            </h3>
+                            {currentQuiz[currentQuestionIndex]?.hint && (
+                              <div className="mt-2 text-sm text-gray-600">
+                                {currentQuiz[currentQuestionIndex].hint}
+                              </div>
+                            )}
+                          </div>
                         </div>
+
 
                         <div className="space-y-3 mt-6">
                           {currentQuiz[currentQuestionIndex]?.options.map((option, index) => {
