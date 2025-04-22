@@ -1617,7 +1617,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-3.png"
+                src="/Module-2-5-4.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1661,7 +1661,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-4.png"
+                src="/Module-2-5-5.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1734,7 +1734,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-5.png"
+                src="/Module-2-5-6.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1785,7 +1785,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-6.png"
+                src="/Module-2-5-7.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1817,7 +1817,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-7.png"
+                src="/Module-2-5-8.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1848,7 +1848,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-8.png"
+                src="/Module-2-5-9.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
@@ -1899,7 +1899,7 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-9.png"
+                src="/Module-2-5-10.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
