@@ -2722,15 +2722,15 @@ const CourseContent = () => {
       {
         question: "What does Fundamental Analysis consist of?",
         options: ["Quantitative Analysis", "Qualitative Analysis", "Quantitative and Qualitative Analysis", "Technical Analysis", "All of the Above"],
-        correctAnswer: [2],
+        correctAnswer:2,
         hint: (
           <span className="text-blue-600 tooltip-wrapper">
                 <em>💡 Hint</em>
                   <div className="tooltip-box">
                     <p className="tooltip-text font-medium mb-1">
                     Think of fundamental analysis like evaluating a hidden gem at a thrift store.
-                    <br/>Fundamental analysis is like inspecting items at a thrift shop to decide their true worth.
-                    <br/>For stocks, it means scrutinizing a company's financial health, management quality, and market position to see if the stock price really reflects its value.
+                    <br/>🕵🏻Fundamental analysis is like inspecting items at a thrift shop to decide their true worth.
+                    <br/>🤔For stocks, it means scrutinizing a company's financial health, management quality, and market position to see if the stock price really reflects its value.
                     </p>
                   </div>
           </span>
