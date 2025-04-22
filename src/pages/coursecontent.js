@@ -2764,11 +2764,13 @@ const CourseContent = () => {
         ],
         correctAnswer: 1,
         hint: (
-          <span
-            title="Fundamental analysis helps you assess whether a stock's price reflects its true business value."
-            style={{ textDecoration: "underline dotted", cursor: "help" }}
-          >
-            💡 Hint: Think long-term value, not short-term hype.
+          <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Hint</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    Think of long-term value, not short-term hype.
+                    </p>
+                  </div>
           </span>
         ),
         feedback: [
@@ -2784,11 +2786,15 @@ const CourseContent = () => {
         options: ["Undervalued", "Overvalued"],
         correctAnswer: 0,
         hint: (
-          <span
-            title="Fair market value is what a stock is actually worth. Market price is what it's selling for. If something is worth more than the price, it's undervalued."
-            style={{ textDecoration: "underline dotted", cursor: "help" }}
-          >
-            💡 Hint: Think of a high-quality jacket at a low thrift price.
+          <span className="text-blue-600 tooltip-wrapper">
+            <em>💡 Hint</em>
+              <div className="tooltip-box">
+                <p className="tooltip-text font-medium mb-1">
+                Think of a high-quality jacket at a low thrift price.
+                <br/>🕵🏻Fundamental analysis is like inspecting items at a thrift shop to decide their true worth.
+                <br/>🤔For stocks, it means scrutinizing a company's financial health, management quality, and market position to see if the stock price really reflects its value.
+                </p>
+              </div>
           </span>
         ),
         feedback: [
@@ -2813,11 +2819,15 @@ const CourseContent = () => {
         options: ["Undervalued", "Overvalued"],
         correctAnswer: 1,
         hint: (
-          <span
-            title="Fair market value = what the item is usually worth. Market price = current selling price. Undervalued = priced below its real worth. Overvalued = priced above its real worth."
-            style={{ textDecoration: "underline dotted", cursor: "help" }}
-          >
-            📌 Hint: Hover to review key definitions
+          <span className="text-blue-600 tooltip-wrapper">
+                <em>💡 Hint</em>
+                  <div className="tooltip-box">
+                    <p className="tooltip-text font-medium mb-1">
+                    😀Fair market value = what the item is usually worth.
+                    <br/>🤔Market price = current selling price.
+                    <br/>💭Undervalued = priced below its real worth. Overvalued = priced above its real worth.
+                    </p>
+                  </div>
           </span>
         ),
         feedback: [
