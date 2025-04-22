@@ -337,7 +337,7 @@ const Courses = () => {
         },
         {
           id: 7,
-          title: "Balance Sheet I",
+          title: "Balance Sheet",
           duration: "10 min",
           type:"content",
         },
