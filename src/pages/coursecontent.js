@@ -1219,7 +1219,7 @@ const CourseContent = () => {
             </h3>
 
             <p style={{marginBottom: "1rem"}}>
-                Financial statements are like a company's report card. They provide a snapshot of a company's financial performance, helping investors understand how well the business is doing.
+                Or, you could also view financial statements like a company's report card. They provide a snapshot of a company's financial performance, helping investors understand how well the business is doing.
                 There are three core financial statements that work together to paint a complete picture:
                 <ol>
                   <li>
@@ -1547,7 +1547,7 @@ const CourseContent = () => {
             </h3>
 
             <p style={{ marginBottom: "1rem" }}>
-              <strong>Revenue:</strong> Total earnings from selling items (before subtracting expenses)
+              <strong>Revenue:</strong> Total earnings from selling items (before subtracting expenses).
             </p>
             
             <div style={{ marginTop: "2rem"}}>
@@ -1578,7 +1578,7 @@ const CourseContent = () => {
             </h3>
 
             <p style={{ marginBottom: "1rem" }}>
-              <strong>Expenses:</strong> How much money a business spent during a reporting period
+              <strong>Expenses:</strong> How much money a business spent during a reporting period.
             </p>
 
             <div style={{ marginTop: "2rem"}}>
@@ -1785,7 +1785,330 @@ const CourseContent = () => {
 
             <div style={{ marginTop: "2rem"}}>
               <img
-                src="/Module-2-5-5.png"
+                src="/Module-2-5-6.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              📃 The Income Statement's Key Characters
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              <strong>Net income:</strong> Income after taxes.
+              <br/>What the store keeps after all expesnses are deducted including interest and taxes.
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-5-7.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              📃 The Income Statement's Key Characters
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              <strong>Earnings per share (EPS):</strong> Net income divided by the total number of outstanding shares.
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-5-8.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              📃 The Income Statement's Key Characters
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              <strong>EBITDA:</strong> Earnings before interest, depreciation, taxes, and amortization.
+            </p>
+
+            <p style={{ marginBottom: "1rem" }}>
+              <strong>Amortization:</strong> It is like spreading the cost of a thrift store purchases over time. 
+              <br/>⏳If you buy a jacket for $100 and plan to use it for 5 years, instead of counting the full $100 as a cost right away, you divide it by 5. 
+              <br/>⌛So, each year, you count $20 as the cost of the jacket, reflecting its use over time. 
+              <br/>👧It's a little like girl math for assets like equipment or patents that a company has. 
+            </p>
+
+            <p style={{ marginBottom: "1rem" }}>
+              <strong>Depreciation:</strong> It is the value lost by assets, such as inventory, equipment, and property, over time. 
+              <br/>It is similar to amortization, but it applies to <strong>physical assets</strong> that lost value over time, like a car or a piece of equipment. 
+              <br/>
+              <br/>For example, if you buy a vintage leather jacket for $100, it might lose value each year as it gets worn and aged. 
+              <br/>📉Instead of spreading the full cost over its life (like amortization), you track the decline in value each year.
+              <br/>
+              <br/>💸Say the jacket loses $20 in value each year.
+              <br/>After 1 year, it is worth $80.
+              <br/>After 2 years, it is worth $60, and so on.
+              <br/>This is depreciation - accounting for the loss in value of an asset over time.
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-5-9.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+    ],
+    //Section 2 Module 6
+    [
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              📃 What These Characters Mean
+            </h3>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-6-1.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+
+            <p style={{ marginBottom: "1rem" }}>
+              During the reporting period, the company brought in <strong>$4.4 billion in total sales</strong>.
+              <br/>To generate these sales, it <strong>spent around $2.7 billion</strong>, leaving them with a solid <strong>$1.6 billion in gross profit</strong>.
+              <br/> 
+              <br/>However, there are still other expenses to consider.
+              <br/>The company spent about <strong>$560.4 million on selling and operating costs</strong>, and
+              <br/><strong>$293.7 million on general administrative expenses</strong>.
+              <br/>After covering these costs, the company was left with <strong>$765.2 million in operating income</strong>.
+              <br/>
+              <br/>But that's not the end of the story!
+              <br/>The company had additional financial adjustments, including a <strong>$257.6 million income tax</strong>.
+              <br/>After factoring in these changes, the company finished the period with a <strong>net income of $483.2 million</strong>.
+              <br/>
+              <br/>Using these figures, you could calculate figures like <em>earnings per share</em> which will help you make better investment decisions. 
+              <br/>We will cover these in a later topic, <em>"key financial ratios"</em> to show you what each of these figures mean to you as an investor, as well as, how they are derived. 
+            </p>
+
+          </div>
+        ),
+      },
+
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              🚩 Red Flags to Look Out For
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              After reading the income statement, take note if your conclusion contains any of the following three points.
+              <ol>
+                <li>
+                  <strong>Declining revenues over multiple periods:</strong>
+                  <br/>Imagine the thrift store's sales have been dropping steadily.
+                  <br/>Last year, it made $10,000 in sales, and the year before that, it made $12,000, but this year, it only made $8,000.
+                  <br/>Over time, the store's sales have been decreasing, which suggests fewer customers or less demand for its items.
+                </li>
+              </ol>
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-6-2.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              🚩 Red Flags to Look Out For
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              After reading the income statement, take note if your conclusion contains any of the following three points.
+              <ol start="2">
+                <li>
+                  <strong>Increasing costs without proportional revenue growth:</strong>
+                  <br/>The <strong>store's expenses are rising</strong>, but <strong>sales aren't keeping up</strong>.
+                  <br/>For instance, the store's <strong>rent increased by 10%</strong> this year, and the <strong>cost of goods is rising</strong> due to tarriffs. 
+                  <br/>However, despite these higher expenses, <strong>sales have only gone down or stayed flat</strong>.
+                  <br/>
+                  <br/>The store is <strong>spending more to operate without generating more revenue</strong>, which impacts profitability.
+                </li>
+              </ol>
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-6-3.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              🚩 Red Flags to Look Out For
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              After reading the income statement, take note if your conclusion contains any of the following three points.
+              <ol start="3">
+                <li>
+                  <strong>Negative net income for consecutive years:</strong>
+                  <br/>The store has been <strong>losing money year after year</strong>. 
+                  <br/>For instance, in 2023, its <strong>expenses exceeded revenues by $1,000</strong>, and  
+                  <br/>in 2024, it <strong>lost $2,000</strong>.
+                  <br/>
+                  <br/>This <strong>pattern of negative net income</strong> shows that the store has been consistently unprofitable, indicating financial trouble.
+                </li>
+              </ol>
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-6-4.png"
+                style={{
+                  maxWidth: "500px",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                  display: "block",
+                  marginTop: "2rem",
+                  marginLeft: 0
+                }}
+              />
+            </div>
+          </div>
+        ),
+      },
+
+      {
+        title: "Income Statement",
+        type: "content",
+        content: (
+          <div>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+              🚩 Red Flags to Look Out For
+            </h3>
+
+            <p style={{ marginBottom: "1rem" }}>
+              In summary, after reading the income statement, take note if your conclusion contains any of the following three points.
+              <ol>
+                <li>
+                  <strong>Declining revenues over multiple periods:</strong> The store's revenues are declining.
+                </li>
+                <li>
+                  <strong>Increasing costs without proportional revenue growth:</strong> Its costs are rising without enough increase in sales.
+                </li>
+                <li>
+                  <strong>Negative net income for consecutive years:</strong> It has negative net income over multiple years, showing consistent loses.
+                </li>
+              </ol>
+            </p>
+
+            <div style={{ marginTop: "2rem"}}>
+              <img
+                src="/Module-2-6-4.png"
                 style={{
                   maxWidth: "500px",
                   height: "auto",
